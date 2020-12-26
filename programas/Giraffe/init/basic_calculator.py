@@ -1,5 +1,7 @@
-num1 = int(input("Enter a number:"))
-num2 = int(input("Enter another number:"))
-result = num1 + num2
+#building basic calculator
+
+number01 = input("Enter a number:")
+number02 = input("Enter another number:")
+result = float(number01) + float(number02)
 
 print(result)
