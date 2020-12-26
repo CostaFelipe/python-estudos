@@ -54,3 +54,11 @@ print(round(3.9))
 print(floor(3.7))
 print(ceil(6.5))
 print(sqrt(9))
+
+#Getting input from Users
+print("\nGetting input from Users")
+name = input("Enter your name: ")
+age  = input("Enter your age:")
+print("Hi", name +"!","You are " + age)
+
+#Getting input from users
