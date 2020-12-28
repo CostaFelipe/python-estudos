@@ -15,3 +15,9 @@ z[0] = 3
 print(z)
 
 
+a = [1, 2, 3]
+print(a)
+a[1] = 7
+print(a)
+print(len(a))
+
