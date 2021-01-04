@@ -1,19 +1,12 @@
-primeira = []
-segunda  = []
-x = 0
-
-while True:
-    n = int(input("Add numbers list 01:"))
-    if n == 0:
-        break
-    primeira.append(n)
-
-while True:
-    n = int(input("Add numbers list 02:"))
-    if n == 0:
-        break
-    segunda.append(n)
+primeira = [1, 10, 9, 8, 7, 5]
+segunda  = [1, 2, 4, 11, 10, 4, 5]
 
 terceira = primeira[:]
 terceira.extend(segunda)
-print(set(terceira))
+x = 0
+
+while x < len(terceira):
+    quarta = set(terceira)
+    x+=1
+print(quarta)
+
