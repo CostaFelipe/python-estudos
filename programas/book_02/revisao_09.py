@@ -5,5 +5,4 @@ while x < 5:
     soma += lista[x]
     print(x, lista[x])
     x+=1
-    
 print("resultado total", soma)
