@@ -7,3 +7,10 @@ Lista = []
 L = [1, 2, 4, 6]
 
 print(L)
+
+#position
+print(L[0])
+print(L[1])
+print(L[2])
+print(L[3])
+
