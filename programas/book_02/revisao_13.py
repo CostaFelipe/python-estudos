@@ -6,3 +6,7 @@ motorcycles = ['honda', 'yamaha', 'susuki']
 popped_motorcycle = motorcycles.pop()
 print(motorcycles)
 print(popped_motorcycle)
+
+motorcycles = ['honda', 'yamaha', 'susuki']
+motorcycles.remove('honda')
+print(motorcycles)
