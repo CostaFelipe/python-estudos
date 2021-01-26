@@ -42,7 +42,14 @@ print(max(lista))
 lista = ["1", "2"]
 print(max(lista))
 
+#method list()
 name = "Esther"
 print(list(name))
+
+#method sorted()
+list1 = [2, 3, 0, 3, 1, 4, 7, 1]
+print(sorted(list1))
+print(list1)
+
 
 
