@@ -39,4 +39,7 @@ print(len(Avengers))
 lista = [1, 2, 6, 45, 100]
 print(max(lista))
 
+lista = ["1", "2"]
+print(max(lista))
+
 
