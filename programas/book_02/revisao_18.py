@@ -60,3 +60,9 @@ print(sorted(tuple))
 Avengers = []
 Avengers.append("Captain American")
 print(Avengers)
+
+#extend() method
+Avengers1 = ["Hulk"]
+Avengers2 = ["iron-man", 'sam']
+Avengers1.extend(Avengers2)
+print(Avengers1)
