@@ -71,3 +71,9 @@ list1 = ["mohit", "Bhaskar"]
 name = "Linda"
 list1.extend(name)
 print(list1)
+
+#tuple + list in extend() method
+Avengers1 = ['hulk', 'iron-man', 'Captain-America', 'Thor']
+team2 = ("vision", "Clint")
+Avengers1.extend(team2)
+print(Avengers1)
