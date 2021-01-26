@@ -42,4 +42,7 @@ print(max(lista))
 lista = ["1", "2"]
 print(max(lista))
 
+name = "Esther"
+print(list(name))
+
 
