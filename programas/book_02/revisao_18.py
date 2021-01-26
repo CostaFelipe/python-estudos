@@ -51,5 +51,7 @@ list1 = [2, 3, 0, 3, 1, 4, 7, 1]
 print(sorted(list1))
 print(list1)
 
-
+#tuple in sorted()
+tuple = (100, 5, 7, 9)
+print(sorted(tuple))
 
