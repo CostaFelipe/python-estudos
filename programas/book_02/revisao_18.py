@@ -55,3 +55,8 @@ print(list1)
 tuple = (100, 5, 7, 9)
 print(sorted(tuple))
 
+#method append()
+
+Avengers = []
+Avengers.append("Captain American")
+print(Avengers)
