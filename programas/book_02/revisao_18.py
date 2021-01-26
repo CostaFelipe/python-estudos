@@ -30,4 +30,10 @@ Av = ['Vision', 'sam']
 new_Av = Av * 2
 print(new_Av)
 
+Avengers= ['hulk', 'iron-man', 'Captain-America', 'Thor']
+if "iron-man" in Avengers:
+    print("Yes")
+
+
+
 
