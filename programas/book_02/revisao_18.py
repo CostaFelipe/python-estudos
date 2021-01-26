@@ -34,6 +34,6 @@ Avengers= ['hulk', 'iron-man', 'Captain-America', 'Thor']
 if "iron-man" in Avengers:
     print("Yes")
 
-
+print(len(Avengers))
 
 
