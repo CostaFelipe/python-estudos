@@ -14,3 +14,10 @@ print(Avengers[1:3])
 Avengers = ['Hulk', 'Iron-Man', 'Captain', 'Thor']
 Avengers[2] = "Captain-America"
 print(Avengers)
+
+C_W_team = ['Hulk', 'iron-man', 'Captain-American', 'Thor', "Vision"]
+del C_W_team[0]
+print(C_W_team)
+del C_W_team[2:4]
+print(C_W_team)
+
