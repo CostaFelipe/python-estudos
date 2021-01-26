@@ -77,3 +77,15 @@ Avengers1 = ['hulk', 'iron-man', 'Captain-America', 'Thor']
 team2 = ("vision", "Clint")
 Avengers1.extend(team2)
 print(Avengers1)
+
+# extend() x append() method
+Linux = ["kali", "Ubuntu", "debian"]
+Linux2 = ["RHEL", "Centos"]
+Linux.extend(Linux2)
+print(Linux)
+
+Linux = ["kali", "Ubuntu", "debian"]
+Linux2 = ["RHEL", "Centos"]
+
+Linux.append(Linux2)
+print(Linux)
