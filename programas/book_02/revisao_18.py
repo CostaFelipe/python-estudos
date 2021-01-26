@@ -21,3 +21,9 @@ print(C_W_team)
 del C_W_team[2:4]
 print(C_W_team)
 
+Avengers1 = ['hulk', 'iron-man', 'Captain-America', 'Thor']
+Avengers2 = ["Vision","sam"]
+Avengers = Avengers1 + Avengers2
+print(Avengers)
+
+
