@@ -66,3 +66,8 @@ Avengers1 = ["Hulk"]
 Avengers2 = ["iron-man", 'sam']
 Avengers1.extend(Avengers2)
 print(Avengers1)
+
+list1 = ["mohit", "Bhaskar"]
+name = "Linda"
+list1.extend(name)
+print(list1)
