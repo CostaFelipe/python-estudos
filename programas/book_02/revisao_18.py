@@ -26,4 +26,8 @@ Avengers2 = ["Vision","sam"]
 Avengers = Avengers1 + Avengers2
 print(Avengers)
 
+Av = ['Vision', 'sam']
+new_Av = Av * 2
+print(new_Av)
+
 
