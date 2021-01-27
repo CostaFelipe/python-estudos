@@ -89,3 +89,7 @@ Linux2 = ["RHEL", "Centos"]
 
 Linux.append(Linux2)
 print(Linux)
+
+#count() method
+list1 = ["a","c","b","c","a","h","l", 1, 2, 3, 4]
+print(list1.count("c"))
