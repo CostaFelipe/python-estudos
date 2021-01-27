@@ -93,3 +93,9 @@ print(Linux)
 #count() method
 list1 = ["a","c","b","c","a","h","l", 1, 2, 3, 4]
 print(list1.count("c"))
+
+#index() method
+OS = ['kali', 'Ubuntu', 'debian', 'RHEL', 'Centos']
+print(OS.index("debian"))
+
+print(OS.index("RHEL"))
