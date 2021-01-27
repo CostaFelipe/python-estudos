@@ -105,3 +105,9 @@ A = ['iron-man', 'hulk', 'Thor']
 A.insert(1, "Captain-America")
 print(A)
 
+#remove() method
+Avengers1 = ["Iron-man","Thor","Loki","hulk"]
+Avengers1.remove("Thor")
+print(Avengers1)
+
+
