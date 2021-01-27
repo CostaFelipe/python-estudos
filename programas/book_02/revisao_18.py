@@ -132,3 +132,9 @@ av = ['hulk', 'iron-man', 'Captain-America', 'Thor', 'vision', 'Clint']
 av.reverse()
 print(av)
 
+#list comprehensions
+list1 = [2,3,4,5,6]
+list2 = []
+for each in list1:
+    list2.append(each)
+print(list2)
