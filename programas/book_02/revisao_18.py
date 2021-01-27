@@ -99,3 +99,9 @@ OS = ['kali', 'Ubuntu', 'debian', 'RHEL', 'Centos']
 print(OS.index("debian"))
 
 print(OS.index("RHEL"))
+
+#insert() method
+A = ['iron-man', 'hulk', 'Thor']
+A.insert(1, "Captain-America")
+print(A)
+
