@@ -119,5 +119,12 @@ GoT = ["Tyrion","Sansa", "Arya","Joffrey","Ned-Stark"]
 GoT.pop()
 print(GoT)
 
+#sort() method
+list1 = [5, 6, 7, 1, 4, 2, 0, 4, 2, 8]
+list1.sort()
+print(list1)
+
+list1.sort(reverse=True)
+print(list1)
 
 
