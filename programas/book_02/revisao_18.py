@@ -110,4 +110,14 @@ Avengers1 = ["Iron-man","Thor","Loki","hulk"]
 Avengers1.remove("Thor")
 print(Avengers1)
 
+num = [1,2,3,4,5,6,4,1,7]
+num.remove(1)
+print(num)
+
+#pop() method
+GoT = ["Tyrion","Sansa", "Arya","Joffrey","Ned-Stark"]
+GoT.pop()
+print(GoT)
+
+
 
