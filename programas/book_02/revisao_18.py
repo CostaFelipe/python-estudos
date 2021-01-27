@@ -126,3 +126,9 @@ print(list1)
 
 list1.sort(reverse=True)
 print(list1)
+
+#reverse() method
+av = ['hulk', 'iron-man', 'Captain-America', 'Thor', 'vision', 'Clint']
+av.reverse()
+print(av)
+
