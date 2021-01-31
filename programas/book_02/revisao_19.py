@@ -42,3 +42,11 @@ print(square)
 
 even_numbers = [value for value in range(2, 11, 2)]
 print(even_numbers)
+
+multiplos = []
+
+for tres in range(1, 31):
+    if tres % 3 == 0:
+        multiplos.append(tres)
+        
+print(multiplos)
