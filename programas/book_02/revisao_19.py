@@ -48,5 +48,9 @@ multiplos = []
 for tres in range(1, 31):
     if tres % 3 == 0:
         multiplos.append(tres)
-        
+
 print(multiplos)
+
+multiplos_tres = [value for value in range(3, 31, 3)]
+print(multiplos_tres)
+
