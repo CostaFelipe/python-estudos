@@ -17,3 +17,8 @@ squares = []
 for value in range(1, 11):
     squares.append(value**2)
     print(squares)
+
+digits = [1, 4, 5, 8, 33, 8, 100, 1000]
+print(max(digits))
+print(min(digits))
+print(sum(digits))
