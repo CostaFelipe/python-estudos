@@ -14,7 +14,7 @@ print(name.lower())
 name = "Ada Lovelace"
 print(name.upper())
 
-#Combinando ou concatenando stringss
+#Combinando ou concatenando strings
 first_name = "Ada"
 last_name = "Lovelace"
 print(first_name + " " + last_name)
