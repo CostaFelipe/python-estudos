@@ -43,3 +43,29 @@ print(favorite_language.strip())
 #Apostrophe
 message = "One of Python's strengths is its diverse community."
 print(message)
+
+#exercicios strings
+#1)
+personal_message = "Hello Eric, good morning?"
+print(personal_message)
+
+#2)
+name = "esther oliveira"
+print(name.upper())
+
+name = "ESTHER"
+print(name.lower())
+print(name.title())
+
+#3)
+message = 'Albert Einstein certa vez disse: "Uma pessoa que nunca cometeu um erro jamais tentou nada novo."'
+print(message)
+
+#4)
+famous_person = "Albert Einstein"
+message = famous_person + ' certa vez disse: "Uma pessoa que nunca cometeu um erro jamais tentou nada novo."'
+print(message)
+
+#5)
+message = famous_person + ' certa vez disse: "Uma pessoa que nunca cometeu um erro jamais tentou nada novo." '
+print(message.strip())
