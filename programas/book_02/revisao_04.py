@@ -1,1 +1,0 @@
-print("The language 'Python' is named after Monty Python, not the snake.")
