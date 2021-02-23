@@ -39,3 +39,7 @@ print(favorite_language.lstrip())
 #Ambos os lados
 favorite_language = " Erlang "
 print(favorite_language.strip())
+
+#Apostrophe
+message = "One of Python's strengths is its diverse community."
+print(message)
