@@ -22,3 +22,20 @@ print(first_name + " " + last_name)
 #Acrescentando espacos em branco em strings com tabulacoes ou quebras de linha
 print("\tPython")
 print("Languages:\nPython\nC\nJavaScript")
+
+#Removendo espacos em branco
+#lado direito de um string
+favorite_language = 'python '
+print(favorite_language.rstrip())
+
+#para sempre
+favorite_language = favorite_language.rstrip()
+print(favorite_language)
+
+#lado esquerdo
+favorite_language = " Ada"
+print(favorite_language.lstrip())
+
+#Ambos os lados
+favorite_language = " Erlang "
+print(favorite_language.strip())
