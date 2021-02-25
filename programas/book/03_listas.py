@@ -57,3 +57,9 @@ print(motocycles)
 motocycles = ['honda', 'yamaha', 'suzuki']
 motocycles.insert(0, 'ducati')
 print(motocycles)
+
+#Removendo elementos de uma lista
+motocycles = ['honda', 'yamaha', 'suzuki']
+print(motocycles)
+del motocycles[0]
+print(motocycles)
