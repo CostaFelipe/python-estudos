@@ -14,11 +14,4 @@ message = "Happy " + str(age) + "rd birthday!"
 print(message)
 
 #the zen of python by tim
-zen = (
-       "Beatiful is better than ugly.",
-       "Simple is better than complex.",
-       "Complex is better tha complicated",
-       "readability counts",
-       "the should be one, and preferely only one, obvious to do it",
-       "now is better than never"
-       )
+import this
