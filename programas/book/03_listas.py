@@ -63,3 +63,9 @@ motocycles = ['honda', 'yamaha', 'suzuki']
 print(motocycles)
 del motocycles[0]
 print(motocycles)
+
+#Removendo um item com o metodo pop()
+motocycles = ['honda', 'yamaha', 'suzuki']
+print(motocycles)
+popper_motocycles = motocycles.pop()
+print(popper_motocycles)
