@@ -119,3 +119,21 @@ print(cars)
 #Descobrindo o tamanho de uma lista
 cars = ['bmw', 'audi', 'toyota', 'subaru']
 print(len(cars))
+
+#exercicios
+#1)
+citys = ['tokio', 'Santa Catarina', 'Jerusalem', 'Manila', 'Rio Branco']
+print("Ordem original:", citys)
+print(sorted(citys))
+print(citys)
+citys.reverse()
+print(citys)
+citys.reverse()
+print(citys)
+citys.sort()
+print(citys)
+citys.sort(reverse=True)
+print(citys)
+#2)
+convidados = [1, 2, 3, 4, 5, 8, 33, 100]
+print(len(convidados))
