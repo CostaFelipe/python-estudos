@@ -108,3 +108,10 @@ print(cars)
 print("Here is the sort list:")
 cars.sort()
 print(cars)
+
+#Exibindo uma lista em ordem inversa
+cars = ['bmw', 'audi', 'toyota', 'subaru']
+print(cars)
+
+cars.reverse()
+print(cars)
