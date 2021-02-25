@@ -17,4 +17,8 @@ print(message)
 zen = (
        "Beatiful is better than ugly.",
        "Simple is better than complex.",
-       "")
+       "Complex is better tha complicated",
+       "readability counts",
+       "the should be one, and preferely only one, obvious to do it",
+       "now is better than never"
+       )
