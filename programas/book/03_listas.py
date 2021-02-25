@@ -115,3 +115,7 @@ print(cars)
 
 cars.reverse()
 print(cars)
+
+#Descobrindo o tamanho de uma lista
+cars = ['bmw', 'audi', 'toyota', 'subaru']
+print(len(cars))
