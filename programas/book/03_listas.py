@@ -36,3 +36,13 @@ print(message)
 cars = ['bmw', 'troller', 'parati', 'citroen blue', 'Masserati']
 message = "Gostaria de ter o carro " + cars[0].title() + "."
 print(message)
+
+#Modificando elementos de uma lista
+motocycles = ['honda', 'yamaha', 'suzuki']
+motocycles[0] = 'ducati'
+print(motocycles)
+
+#Acrescentando elementos em uma lista
+motocycles = ['honda', 'yamaha', 'suzuki']
+motocycles.append('ducati')
+print(motocycles)
