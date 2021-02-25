@@ -93,3 +93,18 @@ print(numbers)
 
 numbers.sort(reverse=True)
 print(numbers)
+
+#Ordenando uma lista temporariamente com a funcao sorted()
+cars = ['bmw', 'audi', 'toyota', 'subaru']
+print("Here is the original list:")
+print(cars)
+print("\nHere is the sorted list:")
+print(sorted(cars))
+print(cars)
+
+print("Here is the original list:")
+cars = ['bmw', 'audi', 'toyota', 'subaru']
+print(cars)
+print("Here is the sort list:")
+cars.sort()
+print(cars)
