@@ -67,5 +67,5 @@ print(motocycles)
 #Removendo um item com o metodo pop()
 motocycles = ['honda', 'yamaha', 'suzuki']
 print(motocycles)
-popper_motocycles = motocycles.pop()
-print(popper_motocycles)
+popped_motocycles = motocycles.pop()
+print(popped_motocycles)
