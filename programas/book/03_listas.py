@@ -74,3 +74,8 @@ print(popped_motorcycles)
 motorcycles = ['honda', 'yamaha', 'suzuki', 'ducati']
 motorcycles.remove('honda')
 print(motorcycles)
+
+motorcycles = ['honda', 'yamaha', 'suzuki', 'ducati']
+too_expensive = 'ducati'
+motorcycles.remove(too_expensive)
+print(motorcycles)
