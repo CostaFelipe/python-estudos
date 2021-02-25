@@ -12,3 +12,9 @@ print((2 + 3) * 4)
 age = 23
 message = "Happy " + str(age) + "rd birthday!"
 print(message)
+
+#zen of python by tim
+zen = (
+       "Beatiful is better than ugly.",
+       "Simple is better than complex.",
+       "")
