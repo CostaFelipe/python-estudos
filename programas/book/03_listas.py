@@ -54,3 +54,6 @@ motocycles.append('suzuki')
 print(motocycles)
 
 #Inserindo elementos em uma lista
+motocycles = ['honda', 'yamaha', 'suzuki']
+motocycles.insert(0, 'ducati')
+print(motocycles)
