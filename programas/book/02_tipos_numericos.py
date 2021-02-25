@@ -13,7 +13,7 @@ age = 23
 message = "Happy " + str(age) + "rd birthday!"
 print(message)
 
-#zen of python by tim
+#the zen of python by tim
 zen = (
        "Beatiful is better than ugly.",
        "Simple is better than complex.",
