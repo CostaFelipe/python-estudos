@@ -79,3 +79,17 @@ motorcycles = ['honda', 'yamaha', 'suzuki', 'ducati']
 too_expensive = 'ducati'
 motorcycles.remove(too_expensive)
 print(motorcycles)
+
+#Ordenando uma lista de forma permanente com o metodo sort()
+cars = ['bmw', 'audi', 'toyota', 'subaru']
+cars.sort()
+print(cars)
+cars.sort(reverse=True)
+print(cars)
+
+numbers = [9, 5, 8, 4]
+numbers.sort()
+print(numbers)
+
+numbers.sort(reverse=True)
+print(numbers)
