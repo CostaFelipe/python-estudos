@@ -38,34 +38,39 @@ message = "Gostaria de ter o carro " + cars[0].title() + "."
 print(message)
 
 #Modificando elementos de uma lista
-motocycles = ['honda', 'yamaha', 'suzuki']
-motocycles[0] = 'ducati'
-print(motocycles)
+motorcycles = ['honda', 'yamaha', 'suzuki']
+motorcycles[0] = 'ducati'
+print(motorcycles)
 
 #Acrescentando elementos em uma lista
-motocycles = ['honda', 'yamaha', 'suzuki']
-motocycles.append('ducati')
-print(motocycles)
+motorcycles = ['honda', 'yamaha', 'suzuki']
+motorcycles.append('ducati')
+print(motorcycles)
 
-motocycles = []
-motocycles.append('honda')
-motocycles.append('yamaha')
-motocycles.append('suzuki')
-print(motocycles)
+motorcycles = []
+motorcycles.append('honda')
+motorcycles.append('yamaha')
+motorcycles.append('suzuki')
+print(motorcycles)
 
 #Inserindo elementos em uma lista
-motocycles = ['honda', 'yamaha', 'suzuki']
-motocycles.insert(0, 'ducati')
-print(motocycles)
+motorcycles = ['honda', 'yamaha', 'suzuki']
+motorcycles.insert(0, 'ducati')
+print(motorcycles)
 
 #Removendo elementos de uma lista
-motocycles = ['honda', 'yamaha', 'suzuki']
-print(motocycles)
-del motocycles[0]
-print(motocycles)
+motorcycles = ['honda', 'yamaha', 'suzuki']
+print(motorcycles)
+del motorcycles[0]
+print(motorcycles)
 
 #Removendo um item com o metodo pop()
-motocycles = ['honda', 'yamaha', 'suzuki']
-print(motocycles)
-popped_motocycles = motocycles.pop()
-print(popped_motocycles)
+motorcycles = ['honda', 'yamaha', 'suzuki']
+print(motorcycles)
+popped_motorcycles = motorcycles.pop()
+print(popped_motorcycles)
+
+#Removendo um item de acordo com o valor
+motorcycles = ['honda', 'yamaha', 'suzuki', 'ducati']
+motorcycles.remove('honda')
+print(motorcycles)
