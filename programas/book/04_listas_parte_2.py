@@ -36,5 +36,17 @@ for value in range(10):
 numbers = list(range(5))
 print(numbers)
 
-even_number = list(range(2,11,2))
+even_number = list(range(0,11,2))
 print(even_number)
+
+impar_number = list(range(1,22,2))
+print(impar_number)
+
+#quadrado perfeito
+
+squares = []
+
+for value in range(1, 11):
+    square = value ** 2
+    squares.append(square)
+    print(squares)
