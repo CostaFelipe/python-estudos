@@ -35,3 +35,6 @@ for value in range(10):
 #Usando range() para criar uma lista de numeros
 numbers = list(range(5))
 print(numbers)
+
+even_number = list(range(2,11,2))
+print(even_number)
