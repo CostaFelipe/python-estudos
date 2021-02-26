@@ -10,3 +10,17 @@ for magician in magicians:
     print(magician.title() + ", that was great trick!")
     print("I can't wait to see the next trick" + magician.title() + "\n")
 print("Thank you, everyone. That was a great magic show!")
+
+#faca voce mesmo
+pizzas = ['calabreza', 'portuguesa', 'pepperoni']
+for pizza in pizzas:
+    print("Gosto de pizza de " + pizza + ".")
+print("Eu realmente gosto de pizzas!")
+
+animals = ['cachorro', 'cavalo', 'elefante']
+for animal in animals:
+    print(animal)
+
+for animal in animals:
+    print("Um, " + animal.title() + " seria um otimo animal de estimacao")
+print("Qualque um desses animais seria um otimo animal de estimacao")
