@@ -66,3 +66,26 @@ print(sum(digits))
 #list comprehension
 squares = [value ** 2 for value in range(1,11)]
 print(squares)
+
+#exercicios
+#1)
+lista = range(1, 1000001)
+print(min(lista))
+print(max(lista))
+print(sum(lista))
+
+for value in range(1,20,2):
+    print(value)
+
+for value in range(3, 31):
+    if value % 3 == 0:
+        print(value)
+
+cubos = []
+for value in range(1,11):
+    cubo = value ** 3
+    cubos.append(cubo)
+    print(cubos)
+
+cubos = [value ** 3 for value in range(1, 11)]
+print(cubos)
