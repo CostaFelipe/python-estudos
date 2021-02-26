@@ -137,3 +137,11 @@ print(citys)
 #2)
 convidados = [1, 2, 3, 4, 5, 8, 33, 100]
 print(len(convidados))
+
+def sum_list(items):
+    sum_numbers = 0
+    for x in items:
+        sum_numbers += x
+    return sum_numbers
+
+print("Soma total da lista:", sum_list([1,2,-8]))
