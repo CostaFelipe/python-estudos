@@ -31,3 +31,7 @@ for number in range(1,5):
 
 for value in range(10):
     print(value)
+
+#Usando range() para criar uma lista de numeros
+numbers = list(range(5))
+print(numbers)
