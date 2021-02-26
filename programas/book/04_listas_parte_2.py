@@ -24,3 +24,10 @@ for animal in animals:
 for animal in animals:
     print("Um, " + animal.title() + " seria um otimo animal de estimacao")
 print("Qualque um desses animais seria um otimo animal de estimacao")
+
+#criando listas numericas range()
+for number in range(1,5):
+    print(number)
+
+for value in range(10):
+    print(value)
