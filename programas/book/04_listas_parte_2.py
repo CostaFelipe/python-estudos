@@ -89,3 +89,21 @@ for value in range(1,11):
 
 cubos = [value ** 3 for value in range(1, 11)]
 print(cubos)
+
+#Fatiando uma lista
+players = ['marinho', 'angelo', 'soldedo', 'joao paulo', 'rodrygo']
+print(players[0:3])
+print(players[:4])
+print(players[2:])
+
+players = ['charles', 'martina', 'michael', 'florence', 'eli']
+for player in players[:3]:
+    print(player.title())
+
+#Copiando uma lista
+my_foods = ['pizza', 'falafel', 'carrot cake']
+friends_foods = my_foods[:]
+my_foods.append('bolinho de belem')
+friends_foods.append('bacalhau')
+print(my_foods)
+print(friends_foods)
