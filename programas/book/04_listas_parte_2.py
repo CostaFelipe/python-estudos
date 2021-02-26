@@ -107,3 +107,18 @@ my_foods.append('bolinho de belem')
 friends_foods.append('bacalhau')
 print(my_foods)
 print(friends_foods)
+
+#Tuplas
+dimensions = (200, 50)
+print(dimensions[0])
+print(dimensions[1])
+
+for dimension in dimensions:
+    print(dimension)
+
+dimensions = (100, 20)
+print(dimensions)
+dimensions = (300, 30)
+for dimension in dimensions:
+    print(dimension)
+print(dimensions)
