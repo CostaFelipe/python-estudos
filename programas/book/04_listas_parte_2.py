@@ -122,3 +122,8 @@ dimensions = (300, 30)
 for dimension in dimensions:
     print(dimension)
 print(dimensions)
+
+#exercicios tuplas
+pratos = ('feijoada', 'camarao', 'moqueca', 'peixada', 'tapioca')
+for prato in pratos:
+    print(prato)
