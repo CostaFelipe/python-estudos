@@ -1,4 +1,4 @@
-#if and else
+#if and else == !=
 cars = ['audi', 'bmw', 'subaru', 'toyota']
 for car in cars:
     if car == 'bmw':
