@@ -187,3 +187,12 @@ if age < 4: price = 0
 elif age < 18: price = 5
 elif age < 65: price = 10
 elif age >= 65: price = 5
+
+#Testando varias condicoes
+requested_toppings = ['mushrooms', 'extra-cheese']
+if 'mushrooms' in requested_toppings:
+    print("Adding mushrooms")
+if 'pepperoni' in requested_toppings:
+    print("adding pepperoni")
+if 'extra-cheese' in requested_toppings:
+    print("adding extra-cheese")
