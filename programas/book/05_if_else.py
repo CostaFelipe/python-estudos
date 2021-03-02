@@ -218,3 +218,12 @@ else:
     print("Voce ganhou 10 pontos")
 
 print("\n")
+alien_color = 'yellow'
+if alien_color == 'green':
+    print("Voce ganhou 5 pontos")
+elif alien_color == 'yellow':
+    print("Voce ganhou 10 pontos")
+else:
+    print("Voce ganhou 15 pontos")
+
+print("\n")
