@@ -100,3 +100,37 @@ banned_users = ['andrew', 'carolina', 'david']
 user = 'marie'
 if user not in banned_users:
     print(user.title() + ", you can post a response if you wish.")
+
+#faca voce mesmo
+#5.1
+car = 'subaru'
+if car == 'subaru':
+    print("Is car == 'subaru'? I predict True.")
+    print(car == 'subaru')
+
+car = 'ford'
+if car != 'audi':
+    print("\n car == 'audi'? I predict False.")
+    print(car == 'audi')
+
+#5.2
+name = 'Esther'
+print(name == 'esther')
+print(name == 'Esther')
+print(name.lower() == 'esther')
+
+number_0 = 33
+number_1 = 31
+print(number_0 >= 30 and number_1 >= 30)
+print(number_0 <= 30 and number_1 <= 30)
+number_1 = 18
+print(number_0 >= 30 and number_1 >= 30)
+print(number_0 <= 30 and number_1 <= 30)
+print(number_0 <= 30 or number_1 <= 30)
+
+medicos = ['Henrique', 'Paulo', 'Paula', 'Esther']
+print('felipe' in medicos)
+print('Paula' in medicos)
+name = 'felipe'
+if name.title() not in medicos:
+    print("O medico " + name.title() + " nao existe")
