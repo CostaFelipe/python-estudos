@@ -227,3 +227,16 @@ else:
     print("Voce ganhou 15 pontos")
 
 print("\n")
+age = 10
+if age < 4:
+    print("e uma crianca")
+elif age < 13:
+    print("e um garoto")
+elif age < 20:
+    print("e um adolescente")
+elif age < 65:
+    print("e um adulto")
+else:
+    print("e um idoso")
+
+print("\n")
