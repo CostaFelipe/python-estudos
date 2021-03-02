@@ -134,3 +134,13 @@ print('Paula' in medicos)
 name = 'felipe'
 if name.title() not in medicos:
     print("O medico " + name.title() + " nao existe")
+
+#Instrucoes if simples
+age = 19
+if age >= 18:
+    print("You are old enough to vote")
+
+age = 19
+if age >= 18:
+    print("You are old enough to vote")
+    print("Have you registered to vote yet?")
