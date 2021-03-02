@@ -196,3 +196,25 @@ if 'pepperoni' in requested_toppings:
     print("adding pepperoni")
 if 'extra-cheese' in requested_toppings:
     print("adding extra-cheese")
+
+print("\n")
+#faca voce mesmo
+#5.3
+alien_color = 'green'
+if alien_color == 'green':
+    print("Voce ganhou 5 pontos")
+
+print("\n")
+alien_color = 'red'
+if alien_color == 'green':
+    print("Voce ganhou 5 pontos")
+else:
+    print("Voce ganhou 10 pontos")
+
+alien_color = 'green'
+if alien_color == 'green':
+    print("Voce ganhou 5 pontos")
+else:
+    print("Voce ganhou 10 pontos")
+
+print("\n")
