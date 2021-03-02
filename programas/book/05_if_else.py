@@ -251,3 +251,5 @@ if 'lemon' in favorite_fruits:
     print("Lemon is my favorite fruit")
 if 'caja' in favorite_fruits:
     print("caja is my favorite fruit")
+
+#Usando instrucoes if com listas
