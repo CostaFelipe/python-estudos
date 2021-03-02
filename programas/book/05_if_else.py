@@ -240,3 +240,14 @@ else:
     print("e um idoso")
 
 print("\n")
+favorite_fruits = ['acai', 'caja', 'ameixa']
+if 'maca' in favorite_fruits:
+    print("is my fruit favorite")
+if 'acai' in favorite_fruits:
+    print("acai is my fruit favorite")
+if 'ameixa' in favorite_fruits:
+    print("ameixa is my favorite fruit")
+if 'lemon' in favorite_fruits:
+    print("Lemon is my favorite fruit")
+if 'caja' in favorite_fruits:
+    print("caja is my favorite fruit")
