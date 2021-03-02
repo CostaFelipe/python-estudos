@@ -89,3 +89,9 @@ age_1 = 18
 print(age_0 >= 21 or age_1 >= 21)
 age_0 = 18
 print(age_0 >= 21 or age_1 >= 21)
+
+#in
+
+requested_toppings = ['mushrooms', 'onions', 'pineapple']
+print('mushrooms' in requested_toppings)
+print('pepperoni' in requested_toppings)
