@@ -46,3 +46,9 @@ for car in cars:
         print(car.upper())
     else:
         print(car.title())
+
+car = 'bmw'
+print(car == 'bmw')
+
+car = 'audi'
+print(car == 'bmw')
