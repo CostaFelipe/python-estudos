@@ -144,3 +144,22 @@ age = 19
 if age >= 18:
     print("You are old enough to vote")
     print("Have you registered to vote yet?")
+
+print("\n")
+#if-else
+age = 17
+if age >= 18:
+    print("You are old enough to vote")
+else:
+    print("Sorry, you are too young to vote.")
+    print("Please register to vote as soon as you turn 18!")
+
+print("\n")
+#if-elif-else
+age = 12
+if age < 4:
+    print("Your admission cost is $0.")
+elif age < 18:
+    print("Your admission cost is $5.")
+else:
+    print("Your admission cost is $10.")
