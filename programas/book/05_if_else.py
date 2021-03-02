@@ -252,4 +252,27 @@ if 'lemon' in favorite_fruits:
 if 'caja' in favorite_fruits:
     print("caja is my favorite fruit")
 
+print("\n")
 #Usando instrucoes if com listas
+requested_toppings = ['extra-cheese', 'green peppers', 'mushrooms']
+for requested_topping in requested_toppings:
+    print("Adding " + requested_topping + ".")
+print("\nFinished making your pizza!")
+
+print("\n")
+
+for requested_topping in requested_toppings:
+    if requested_topping == 'green peppers':
+        print("Sorry, we are out of green peppers right now.")
+    else:
+        print("Adding " + requested_topping + ".")
+
+print("\n")
+#Verificando se uma lista nao esta vazia
+requested_toppings = []
+if requested_toppings:
+    for requested_topping in request_toppings:
+        print("Adding " + requested_topping)
+    print("\nFinished making your pizza!")
+else:
+    print("Are you sureyou want a plain pizza?")
