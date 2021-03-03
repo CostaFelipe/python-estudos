@@ -311,3 +311,13 @@ if users:
             print("\nOla " + user + ", obrigado por fazer login novamente")
 else:
     print("Precisamos encontrar alguns usuarios")
+
+print("\n")
+#5.10
+current_users = ['peter', 'eshter', 'yuki', 'saori','felipe']
+new_users = ['PETER', 'felipe', 'maria', 'ruth']
+for new_user in new_users:
+    if new_user.lower() in current_users:
+        print(new_user + " este nome ja esta sendo utilizado")
+    else:
+        print("\n"+ new_user + " este nome esta disponivel para ser utilizado")
