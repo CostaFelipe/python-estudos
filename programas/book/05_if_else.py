@@ -321,3 +321,16 @@ for new_user in new_users:
         print(new_user + " este nome ja esta sendo utilizado")
     else:
         print("\n"+ new_user + " este nome esta disponivel para ser utilizado")
+
+print("\n")
+#5.11
+numbers = list(range(1,10))
+for number in numbers:
+    if number == 1:
+        print(str(number) + "st")
+    elif number == 2:
+        print(str(number) + "nd")
+    elif number == 3:
+        print(str(number) + "rd")
+    else:
+        print(str(number) + "th")
