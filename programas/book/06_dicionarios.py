@@ -28,3 +28,16 @@ print(alien)
 
 print("\n")
 #Modificando valores em um dicionario
+alien_1 = {'color': 'green'}
+print("the alien is " + alien_1['color'])
+alien_1['color'] = 'yellow'
+print("the alien is now " + alien_1['color'])
+
+print("\n")
+alien_2 = {'x_positions': 0, 'y_positions': 25, 'speed': 'medium'}
+if alien_2['speed'] == 'slow': x_positions = 1
+elif alien_2['speed'] == 'medium': x_positions = 2
+else: x_positions = 3
+
+alien_2['x_positions'] = alien_2['x_positions'] + x_positions
+print(alien_2['x_positions'])
