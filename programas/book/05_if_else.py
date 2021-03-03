@@ -301,7 +301,7 @@ for user in users:
         print("\nOla "  + user + ", obrigado por fazer login novamente")
 
 print("\n")
-#5.9
+#5.9 - voce
 users = []
 if users:
     for user in users:
