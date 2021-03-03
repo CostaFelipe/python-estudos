@@ -292,7 +292,7 @@ print("Finished making your pizza!!")
 
 print("\n")
 #faca voce mesmo
-#5.8
+#5.8 voce
 users = ['admin', 'Eric', 'Linda', 'Esther', 'Felipe']
 for user in users:
     if user == 'admin':
