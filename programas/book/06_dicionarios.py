@@ -79,3 +79,33 @@ print(favorite_numbers)
 #6.3
 glossario = {'lista': 'list', 'tupla': 'tuples', 'dicionario': 'dicionary'}
 print(glossario['tupla'])
+
+print("\nPercorrendo todos os pares com um laco")
+#Percorrendo todos os pares chave-valor com um laco
+user_0 = {'username': 'efermi', 'firts_name': 'enrico', 'last_name': 'fermi'}
+
+for key, value in user_0.items():
+    print(key + ": " + value)
+
+print("\n")
+favorite_languages = {'jen': 'python', 'sarah': 'c',
+                      'edward': 'ruby', 'phil': 'python', }
+for name, language in favorite_languages.items():
+    print(name + " sua linguagem favorita e " + language)
+
+#Percorrendo todas as chaves de um dicionario com um laco
+for name in favorite_languages.keys():
+    print(name.title())
+
+for name in favorite_languages:
+    print(name.title())
+
+print("\n")
+favorite_languages = {'jen': 'python', 'sarah': 'c',
+                      'edward': 'ruby', 'phil': 'python', }
+friends = ['sarah', 'phil']
+for name in favorite_languages.keys():
+    if name in friends:
+        print(" Hi " + name.title() +
+        ", I see your favorite language is " +
+        favorite_languages[name].title() + "!")
