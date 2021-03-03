@@ -13,3 +13,7 @@ new_points = alien['points']
 print("You just earned " + str(new_points) + " points!")
 
 #Adicionando novos pares chave-valor
+alien_0 = {'color': 'green', 'points': 5}
+alien_0['x_position'] = 0
+alien_0['y_position'] = 25
+print(alien_0)
