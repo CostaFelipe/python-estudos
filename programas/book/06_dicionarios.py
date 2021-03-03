@@ -40,4 +40,11 @@ elif alien_2['speed'] == 'medium': x_positions = 2
 else: x_positions = 3
 
 alien_2['x_positions'] = alien_2['x_positions'] + x_positions
-print(alien_2['x_positions'])
+print("o novo valor x_positions e: " + str(alien_2['x_positions']))
+
+print("\nremovendo chave-valor")
+#removendo chave-valor
+alien = {'color': 'green', 'points': 5}
+print(alien)
+del alien['points']
+print(alien)
