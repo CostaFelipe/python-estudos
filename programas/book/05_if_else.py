@@ -299,3 +299,15 @@ for user in users:
         print("Ola " + user + ", gostaria de ver um relatorio de status?")
     else:
         print("\nOla "  + user + ", obrigado por fazer login novamente")
+
+print("\n")
+#5.9
+users = []
+if users:
+    for user in users:
+        if user == 'admin':
+            print("Ola " + user + ", gostaria de ver um relatorio de status?")
+        else:
+            print("\nOla " + user + ", obrigado por fazer login novamente")
+else:
+    print("Precisamos encontrar alguns usuarios")
