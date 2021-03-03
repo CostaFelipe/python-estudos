@@ -12,8 +12,19 @@ alien = {'color': 'green', 'points': 10}
 new_points = alien['points']
 print("You just earned " + str(new_points) + " points!")
 
+print("\n")
 #Adicionando novos pares chave-valor
 alien_0 = {'color': 'green', 'points': 5}
 alien_0['x_position'] = 0
 alien_0['y_position'] = 25
 print(alien_0)
+
+print("\n")
+#Comecando com um dicionario vazio
+alien = {}
+alien['color'] = 'green'
+alien['points'] = 5
+print(alien)
+
+print("\n")
+#Modificando valores em um dicionario
