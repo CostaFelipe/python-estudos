@@ -48,3 +48,14 @@ alien = {'color': 'green', 'points': 5}
 print(alien)
 del alien['points']
 print(alien)
+
+print("\nUm dicionario de objetos semelhantes")
+#Um dicionario de objetos semelhantes
+favorite_languages = {'jen': 'python',
+                      'sarah': 'c',
+                      'edward': 'ruby',
+                      'phil': 'python'
+                      }
+print("Sarah favorite language is " +
+       str(favorite_languages['sarah'].title()) +
+      ".")
