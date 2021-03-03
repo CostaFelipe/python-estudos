@@ -59,3 +59,10 @@ favorite_languages = {'jen': 'python',
 print("Sarah favorite language is " +
        str(favorite_languages['sarah'].title()) +
       ".")
+
+print("\nFaca voce mesmo")
+#Faca voce mesmo
+#6.1
+people = {'first_name': 'sarah', 'last_name': 'costa',
+          'age': 32, 'city': 'varsovia'}
+print(people)
