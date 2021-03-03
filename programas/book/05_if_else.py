@@ -289,3 +289,13 @@ for requested_topping in requested_toppings:
     else:
         print("Sorry, we dont have " + requested_topping)
 print("Finished making your pizza!!")
+
+print("\n")
+#faca voce mesmo
+#5.8
+users = ['admin', 'Eric', 'Linda', 'Esther', 'Felipe']
+for user in users:
+    if user == 'admin':
+        print("Ola " + user + ", gostaria de ver um relatorio de status?")
+    else:
+        print("\nOla "  + user + ", obrigado por fazer login novamente")
