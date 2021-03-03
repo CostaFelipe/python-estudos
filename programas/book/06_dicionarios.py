@@ -66,3 +66,16 @@ print("\nFaca voce mesmo")
 people = {'first_name': 'sarah', 'last_name': 'costa',
           'age': 32, 'city': 'varsovia'}
 print(people)
+
+#6.2
+favorite_numbers = {}
+favorite_numbers['Felipe'] = 43
+favorite_numbers['Sueli'] = 7
+favorite_numbers['ruth'] = 30
+favorite_numbers['raimundo'] = 17
+favorite_numbers['levi'] = 21
+print(favorite_numbers)
+
+#6.3
+glossario = {'lista': 'list', 'tupla': 'tuples', 'dicionario': 'dicionary'}
+print(glossario['tupla'])
