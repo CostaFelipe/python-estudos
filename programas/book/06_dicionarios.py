@@ -152,3 +152,14 @@ for name, significado in glossario.items():
     print(name + ", significado e: " + significado)
 
 print("\nFaca voce mesmo")
+rios = {'egito': 'nilo', 'brasil':'amazonas', 'EUA': 'tennessee'}
+for pais, rio in rios.items():
+    print("O " + rio + " corre pelo " + pais.title())
+
+#laco so c/ rios
+for rio in rios.values():
+    print(rio)
+
+#laco so c/pais
+for paises in rios.keys():
+    print(paises.upper())
