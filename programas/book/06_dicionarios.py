@@ -130,3 +130,12 @@ for name in favorite_language:
               favorite_language[name].title())
 
 print("\nrevisando")
+favorite_language = {'Felipe': 'erlang', 'sarah': 'c', 'peter': 'python',
+                     'phil': 'python', 'edward': 'ruby'}
+for languages in favorite_language.values():
+    print(languages)
+
+print("\nrevisando")
+
+for languages in set(favorite_language.values()):
+    print(languages)
