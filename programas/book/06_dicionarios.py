@@ -204,3 +204,18 @@ for alien in aliens[:3]:
 
 for alien in aliens[:5]:
     print(alien)
+
+#Uma lista em um dicionario
+print("\nUma lista em um dicionario")
+pizza = {'crust': 'thick', 'toppings': ['mushrooms', 'extra-cheese']}
+for topping in pizza['toppings']:
+    print(topping)
+
+print('\n')
+favorite_languages = { 'jen': ['python', 'ruby'], 'sarah': ['c'],
+                       'edward': ['ruby', 'go'],
+                       'phil': ['python', 'haskell'], }
+for name, languages in favorite_languages.items():
+    print("\n" + name.title() + "'s favorite languages are:")
+    for language in languages:
+        print("\t" + language.title())
