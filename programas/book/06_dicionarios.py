@@ -139,3 +139,16 @@ print("\nrevisando")
 
 for languages in set(favorite_language.values()):
     print(languages)
+
+print("\nFaca voce mesmo")
+#faca voce mesmo
+glossario = {'lista': 'list', 'tupla': 'tuples', 'dicionario': 'dicionary'}
+glossario['for'] = 'laco'
+glossario['if'] = 'condicional'
+glossario['title()'] = 'primeira letra maiuscula'
+glossario['upper()'] = 'todas letras maiuscula'
+glossario['lower()'] = 'todas as letas minusculas'
+for name, significado in glossario.items():
+    print(name + ", significado e: " + significado)
+
+print("\nFaca voce mesmo")
