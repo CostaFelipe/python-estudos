@@ -220,5 +220,5 @@ for name, languages in favorite_languages.items():
     for language in languages:
         print(language.title())
 
-#Um dicionario em um dicionaria
+#Um dicionario em um dicionario
 print('\nUm dicionario em um dicionario')
