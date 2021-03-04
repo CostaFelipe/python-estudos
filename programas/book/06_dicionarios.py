@@ -163,3 +163,15 @@ for rio in rios.values():
 #laco so c/pais
 for paises in rios.keys():
     print(paises.upper())
+
+print("\nFaca voce mesmo")
+
+favorite_languages = {'jen': 'python', 'sarah': 'c', 'edward': 'ruby',
+                      'phil': 'python', 'felipe': 'erlang', 'esther': 'elixir',
+                      'levi': 'c++'}
+friends = ['felipe', 'sarah', 'ruth', 'caio', 'jose']
+for name in friends:
+    if name in favorite_languages.keys():
+        print("Ola " + name + ", obrigado por participar da enquente.")
+    else:
+        print("Ola " + name + ", voce deve participar da enquente.")
