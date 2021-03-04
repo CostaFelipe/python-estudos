@@ -109,3 +109,24 @@ for name in favorite_languages.keys():
         print(" Hi " + name.title() +
         ", I see your favorite language is " +
         favorite_languages[name].title() + "!")
+
+print("\nrevisando")
+#revisando
+favorite_languages = {'jen': 'python', 'sarah': 'c', 'edward': 'ruby',
+                      'phil': 'pyhton'}
+for name in favorite_languages.keys():
+    print(name)
+
+for name in favorite_languages:
+    print(name.title())
+
+print("\nrevisando")
+favorite_language = {'jen': 'python', 'sarah': 'c', 'edward': 'ruby',
+                     'phil': 'python'}
+friends = ['phil', 'sarah']
+for name in favorite_language:
+    if name in friends:
+        print(name.title() + ", sua linguagem favorita e: " +
+              favorite_language[name].title())
+
+print("\nrevisando")
