@@ -1,1 +1,1 @@
-#Aqui vai está todos os projetos abertos django
+#Aqui vai está todos os projetos abertos feito em django
