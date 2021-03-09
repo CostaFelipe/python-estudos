@@ -229,5 +229,12 @@ for carro in range(5):
 for carro in carros:
     print(carro)
 
+carts = []
+for cart in range(2):
+    new_cart = {'qtd': 5, 'produto': 'chocolate'}
+    carts.append(new_cart)
+for cart in carts:
+    print(cart)
+    
 #Um dicionario em um dicionario
 print('\nUm dicionario em um dicionario')
