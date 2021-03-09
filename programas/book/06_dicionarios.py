@@ -220,5 +220,14 @@ for name, languages in favorite_languages.items():
     for language in languages:
         print(language.title())
 
+#lembrando
+carros = []
+for carro in range(5):
+    novo_carro = {'color': 'preto', 'portas': 4, 'marca': 'ford', 'nome': 'KA'}
+    carros.append(novo_carro)
+
+for carro in carros:
+    print(carro)
+
 #Um dicionario em um dicionario
 print('\nUm dicionario em um dicionario')
