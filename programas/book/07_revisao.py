@@ -156,3 +156,7 @@ print(alien)
 alien = {}
 alien['color'] = 'yellow'
 print(alien)
+
+#deletando chaves-valor
+del alien['color']
+print(alien)
