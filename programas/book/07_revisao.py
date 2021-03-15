@@ -170,3 +170,14 @@ if user_0:
         print(key, value)
 else:
     print("Não passou no teste")
+
+#pecorrendo dicionario using keys()
+favorite_languages = {'jen': 'python',
+                      'sarah': 'c',
+                      'edward': 'ruby',
+                      'phil': 'python'
+                      }
+friends = ['phil', 'sarah']
+for name in favorite_languages.keys():
+    if name in friends:
+        print(name + " your favorite language is " +favorite_languages[name].title())
