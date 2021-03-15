@@ -81,3 +81,31 @@ numbers = (200, 2)
 for number in numbers:
     print(number)
 print(numbers)
+
+# if and else
+age1 = 14
+age2 = 12
+if age1 == 14:
+    print("verdade")
+print(age1 <= 11 and age2 <= 12)
+print(age1 <= 11 or age2 <= 12)
+
+if age1 == 14 and age2 == 12:
+    print("Verdade")
+else:
+    print("Falso")
+
+if age1 == 11 and age2 == 12:
+    print("Verdade")
+else:
+    print("Falso")
+
+if age1 == 11 or age2 == 12:
+    print("Verdade")
+else:
+    print("Falso")
+
+if age1 >= 11 and age2 >= 12:
+    print("Verdade")
+else:
+    print("Falso")
