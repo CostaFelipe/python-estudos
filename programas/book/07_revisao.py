@@ -116,3 +116,8 @@ if "honda" in motorcycles:
     print(True)
 else:
     print(False)
+
+cars = ['bmw', 'audi']
+cars_banned = ['ford', 'fiat', 'renault']
+if cars not in cars_banned:
+    print(cars)
