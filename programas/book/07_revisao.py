@@ -146,3 +146,13 @@ print(alien_0)
 #acessando dicionarios
 print(alien_0['color'])
 print(alien_0['points'])
+
+#add novas chaves e valores
+alien = {'color': 'orange', 'points': 10}
+alien['position_x'] = 0
+alien['position_y'] = 10
+print(alien)
+
+alien = {}
+alien['color'] = 'yellow'
+print(alien)
