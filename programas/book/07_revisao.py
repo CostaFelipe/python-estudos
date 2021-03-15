@@ -64,3 +64,20 @@ print(squares)
 #lists comprehensions exemplo
 squares = [value**2 for value in range(1, 11)]
 print("lists comprehensions:", squares)
+
+#tuplas
+dimensions = (10 , 100)
+print(dimensions)
+print(dimensions[0])
+print(dimensions[1])
+
+for dimension in dimensions:
+    print(dimension)
+
+#modificando tuplas
+numbers = (100, 50)
+print(numbers)
+numbers = (200, 2)
+for number in numbers:
+    print(number)
+print(numbers)
