@@ -129,3 +129,12 @@ elif age < 18: price = 5
 else: price = 10
 
 print(str(price))
+
+#vericando lista vazia
+requested_toppings = []
+if requested_toppings:
+    for requested_topping in requested_toppings:
+        print("add" + requested_topping)
+        print("Finished make you pizza")
+else:
+    print("Are you sure you want a plain pizza?")
