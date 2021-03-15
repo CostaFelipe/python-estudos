@@ -109,3 +109,10 @@ if age1 >= 11 and age2 >= 12:
     print("Verdade")
 else:
     print("Falso")
+
+#verificando valores nas listas
+motorcycles = ['ducati', 'honda', 'yamaha', 'bmw']
+if "honda" in motorcycles:
+    print(True)
+else:
+    print(False)
