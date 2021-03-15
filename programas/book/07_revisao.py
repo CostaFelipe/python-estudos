@@ -53,3 +53,10 @@ print(numbers)
 #laços range()
 for number in range(10):
     print(number)
+
+#square
+squares = []
+for value in range(1, 11):
+    square = value ** 2
+    squares.append(square)
+print(squares)
