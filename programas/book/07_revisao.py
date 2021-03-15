@@ -160,3 +160,13 @@ print(alien)
 #deletando chaves-valor
 del alien['color']
 print(alien)
+
+#pecorrendo dicionario
+user_0 = {'username': 'micke', 'first_name': 'Felipe',
+          'last_name': 'Costa'}
+#já treinando testes
+if user_0:
+    for key, value in user_0.items():
+        print(key, value)
+else:
+    print("Não passou no teste")
