@@ -41,3 +41,7 @@ print(cars)
 cars = ['ford', 'toyota', 'fiat', 'subaru', 'bwm', 'jaguar']
 print("lista ordenada:" + str(sorted(cars)))
 print("Não modificado mesmo usando sorte():", cars)
+
+#reverse
+cars.reverse()
+print(cars)
