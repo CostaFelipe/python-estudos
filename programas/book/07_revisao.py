@@ -49,3 +49,7 @@ print(cars)
 #criando listas de números usando range()
 numbers = list(range(10))
 print(numbers)
+
+#laços range()
+for number in range(10):
+    print(number)
