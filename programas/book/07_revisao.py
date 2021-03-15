@@ -138,3 +138,7 @@ if requested_toppings:
         print("Finished make you pizza")
 else:
     print("Are you sure you want a plain pizza?")
+
+#dicionarios simples
+alien_0 = {'color': "gree", "points": 5}
+print(alien_0)
