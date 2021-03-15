@@ -1,4 +1,5 @@
-#revisao
+#coding=utf-8
+
 cars = ['ford', 'toyota', 'fiat', 'subaru', 'bwm', 'jaguar']
 print(cars)
 car = cars[:]
@@ -34,3 +35,9 @@ cars.sort()
 print(cars)
 cars.sort(reverse=True)
 print(cars)
+
+#ordenando listas por ordem alfabetica use sorted() sem modificar a lista
+#original
+cars = ['ford', 'toyota', 'fiat', 'subaru', 'bwm', 'jaguar']
+print("lista ordenada:" + str(sorted(cars)))
+print("Não modificado mesmo usando sorte():", cars)
