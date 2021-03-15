@@ -140,5 +140,9 @@ else:
     print("Are you sure you want a plain pizza?")
 
 #dicionarios simples
-alien_0 = {'color': "gree", "points": 5}
+alien_0 = {'color': "green", "points": 5}
 print(alien_0)
+
+#acessando dicionarios
+print(alien_0['color'])
+print(alien_0['points'])
