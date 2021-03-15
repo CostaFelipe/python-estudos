@@ -9,3 +9,5 @@ for car in cars:
     print(car)
 
 #lists comprehensions
+testando = [car for car in cars]
+print(testando)
