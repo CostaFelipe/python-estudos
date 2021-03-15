@@ -11,3 +11,8 @@ for car in cars:
 #lists comprehensions
 testando = [car for car in cars]
 print(testando)
+
+#insert
+cars = ['ford', 'toyota', 'fiat', 'subaru', 'bwm', 'jaguar']
+cars.insert(0,'merceds' )
+print(cars)
