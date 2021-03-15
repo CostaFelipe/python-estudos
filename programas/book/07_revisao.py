@@ -20,3 +20,7 @@ print(cars)
 #pop()
 cars.pop()
 print(cars)
+
+#del nomelista[position]
+del cars[0]
+print(cars)
