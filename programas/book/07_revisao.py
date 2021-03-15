@@ -45,3 +45,7 @@ print("Não modificado mesmo usando sorte():", cars)
 #reverse
 cars.reverse()
 print(cars)
+
+#criando listas de números usando range()
+numbers = list(range(10))
+print(numbers)
