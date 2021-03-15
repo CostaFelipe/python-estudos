@@ -24,3 +24,7 @@ print(cars)
 #del nomelista[position]
 del cars[0]
 print(cars)
+
+# .append("nome")
+cars.append("hyndai")
+print(cars)
