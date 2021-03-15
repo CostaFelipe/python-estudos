@@ -12,7 +12,11 @@ for car in cars:
 testando = [car for car in cars]
 print(testando)
 
-#insert
+#insert()
 cars = ['ford', 'toyota', 'fiat', 'subaru', 'bwm', 'jaguar']
 cars.insert(0,'merceds' )
+print(cars)
+
+#pop()
+cars.pop()
 print(cars)
