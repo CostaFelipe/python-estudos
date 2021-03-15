@@ -161,7 +161,7 @@ print(alien)
 del alien['color']
 print(alien)
 
-#pecorrendo dicionario
+#pecorrendo dicionario using items()
 user_0 = {'username': 'micke', 'first_name': 'Felipe',
           'last_name': 'Costa'}
 #já treinando testes
