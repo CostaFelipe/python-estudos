@@ -244,3 +244,12 @@ for alien in aliens[:5]:
 
 for alien in aliens[:10]:
     print(alien)
+
+#mais exemplos
+favorite_languages = {'felipe': ['erlang', 'elixir', 'python'],
+                      'sarah': ['c', 'golang'], 'tim': ['python'],
+                      'davi': ['hasckel', 'c++']}
+for name, languages in favorite_languages.items():
+    print(name.title())
+    for language in languages:
+        print("{" + language + "}")
