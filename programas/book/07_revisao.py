@@ -182,8 +182,23 @@ for name in favorite_languages.keys():
     if name in friends:
         print(name + " your favorite language is " +favorite_languages[name].title())
 
-#exemplos usuarios
+#exemplos usuarios items()
 user_0 = {'username': 'micke', 'first_name': 'Felipe',
           'last_name': 'Costa'}
 for key, value in user_0.items():
     print(key, value)
+
+#favorite languages keys()
+favorite_languages = {'jen': 'python',
+                      'sarah': 'c',
+                      'edward': 'ruby',
+                      'phil': 'python',
+                      'raquel': 'c++',
+                      'felipe': 'erlang',
+                      'davi': 'haskell'
+                      }
+friends = ['felipe', 'sarah', 'davi']
+
+for name in favorite_languages.keys():
+    if name in friends:
+        print(name, favorite_languages[name].title())
