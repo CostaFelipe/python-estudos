@@ -202,3 +202,8 @@ friends = ['felipe', 'sarah', 'davi']
 for name in favorite_languages.keys():
     if name in friends:
         print(name, favorite_languages[name].title())
+
+#values() dicionario
+favorite_languages = {'felipe':'erlang', 'raquel':'c++', 'sarah':'c'}
+for language in favorite_languages.values():
+    print(language)
