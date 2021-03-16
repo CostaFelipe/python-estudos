@@ -181,3 +181,9 @@ friends = ['phil', 'sarah']
 for name in favorite_languages.keys():
     if name in friends:
         print(name + " your favorite language is " +favorite_languages[name].title())
+
+#exemplos usuarios
+user_0 = {'username': 'micke', 'first_name': 'Felipe',
+          'last_name': 'Costa'}
+for key, value in user_0.items():
+    print(key, value)
