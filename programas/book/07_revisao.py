@@ -207,3 +207,8 @@ for name in favorite_languages.keys():
 favorite_languages = {'felipe':'erlang', 'raquel':'c++', 'sarah':'c'}
 for language in favorite_languages.values():
     print(language)
+
+#sem repetições set()
+favorite_languages = {'felipe':'c', 'raquel':'c++', 'sarah':'c'}
+for language in set(favorite_languages.values()):
+    print(language)
