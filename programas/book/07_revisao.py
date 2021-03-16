@@ -221,3 +221,26 @@ aliens = [alien_0, alien_1, alien_2]
 
 for alien in aliens:
     print(alien)
+
+print("\n")
+#exemplo add, pecorrer, update
+aliens = []
+for alien in range(30):
+    new_alien = {'color': 'green', 'points': 5, 'speed': 'slow'}
+    aliens.append(new_alien)
+
+#pecorrer
+for alien in aliens:
+    print(alien)
+
+print("\n")
+
+#update
+for alien in aliens[:5]:
+    if alien['color'] == 'green':
+        alien['color'] = 'yellow'
+        alien['speed'] = 'medium'
+        alien['points'] = 10
+
+for alien in aliens[:10]:
+    print(alien)
