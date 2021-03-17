@@ -13,3 +13,7 @@ for username, bio in users.items():
     print(username.title() + " " + bio['first'] + " " + bio['last'])
 
 #
+user = {username + bio['first']
+        for username, bio in users.items()
+       }
+print(user)
