@@ -11,3 +11,13 @@ users = {
 }
 for username, bio in users.items():
     print(username.title() + " " + bio['first'] + " " + bio['last'])
+
+
+accounts = {
+            'felipe' : {'username': 'felipe', 'lastname': 'lima'},
+            'ruth' : {'username': 'ruth', 'lastname': 'lima'},
+            'levi' : {'username': 'levi', 'lastname': 'lima'}
+           }
+
+for account, profile in accounts.items():
+    print(account.title() + " Profile {" + profile['username'] + " " + profile['lastname'] + "}" )
