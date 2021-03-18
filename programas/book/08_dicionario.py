@@ -30,3 +30,11 @@ peoples = [people_01, people_02, people_03]
 
 for people in peoples:
     print(people)
+
+yaika = {'tipo': 'cachorro', 'dono': 'felipe'}
+misuki = {'tipo': 'cachorro', 'dono': 'ruth'}
+naninha = {'tipo': 'gato', 'dono': 'levi'}
+pets = [yaika, misuki, naninha]
+
+for pet in pets:
+    print(pet)
