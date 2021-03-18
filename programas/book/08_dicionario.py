@@ -21,3 +21,12 @@ accounts = {
 
 for account, profile in accounts.items():
     print(account.title() + " Profile {" + profile['username'] + " " + profile['lastname'] + "}" )
+
+#exercicios
+people_01 = {'first_name': 'linda', 'last_name': 'rita', 'age': 27,'city': 'sao paulo'}
+people_02 = {'first_name': 'mulder', 'last_name': 'johny', 'age': 34 ,'city': 'santa catarina'}
+people_03 = {'first_name': 'esther', 'last_name': 'Akino', 'age': 32,'city': 'mato grosso'}
+peoples = [people_01, people_02, people_03]
+
+for people in peoples:
+    print(people)
