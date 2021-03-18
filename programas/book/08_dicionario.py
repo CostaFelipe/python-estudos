@@ -38,3 +38,21 @@ pets = [yaika, misuki, naninha]
 
 for pet in pets:
     print(pet)
+
+favorite_places = {'felipe': {'favorite_place':['santa catarina', 'japao', 'ceara']},
+                   'ruth': {'favorite_place': ['japao', 'china', 'brasil']},
+                   'levi': {'favorite_place': ['brasil', 'eua', 'canada']}
+                   }
+for name, places in favorite_places.items():
+    print(name)
+    for place in places.values():
+        print(place)
+
+cities = {'fortaleza':{'estado':'CE', 'pais': 'brasil', 'population': '5 million'},
+          'joaoville':{'estado':'SC', 'pais': 'brasil', 'population': '500 thousand'},
+          'sao paulo':{'estado':'SP', 'pais': 'brasil', 'population': '14 million'},
+         }
+
+for name, biocity in cities.items():
+    print("> " + name.title() + "-" + biocity['estado'] + "\nPais: " + biocity['pais'].title() +
+         "\nPopulacao total: " + biocity['population'])
