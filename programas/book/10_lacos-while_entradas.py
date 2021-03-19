@@ -62,3 +62,14 @@ while active:
         active = False
     else:
         print(ingredientes)
+
+#FAÇA VOCÊ MESMO
+prompt = "\nEscreva os ingredientes para sua pizza"
+prompt += "\nSeus ingridientes são:"
+while True:
+    ingredientes = input(prompt)
+    if ingredientes == 'quit':
+        print("Você finalizou seu pedido")
+        break
+    else:
+        print(ingredientes)
