@@ -27,3 +27,10 @@ def favorite_book(title):
     print("Um dos meus livros favoritos é, " + title)
 
 favorite_book("A VIDA INTELECTUAL de A. D. SERTILLANGES ")
+
+#Passando argumentos
+#Argumentos posicionais
+def describe_pet(animal_type, pet_name):
+    print("\nI have a " + animal_type + ".")
+    print("My " + animal_type + "'s name is " + pet_name.title() + ".")
+describe_pet('dog', 'aika')
