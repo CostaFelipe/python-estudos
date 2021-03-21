@@ -21,3 +21,9 @@ def display_message():
     print("Estamos aprendendo sobre funções, parâmentros e argumentos")
 
 display_message()
+
+#8.2 – Livro favorito
+def favorite_book(title):
+    print("Um dos meus livros favoritos é, " + title)
+
+favorite_book("A VIDA INTELECTUAL de A. D. SERTILLANGES ")
