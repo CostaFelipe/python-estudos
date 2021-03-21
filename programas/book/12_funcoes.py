@@ -38,3 +38,8 @@ describe_pet('dog', 'aika')
 #Várias chamadas de função
 describe_pet('cat', 'naninha')
 describe_pet('dog', 'mishuki')
+
+#A ordem é importante em argumentos posicionais
+def book(author, title):
+    print("My favorite book is " + title + ":" + author)
+book('A VIDA INTELECTUAL', 'A. D. SERTILLANGES')
