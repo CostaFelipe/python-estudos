@@ -77,9 +77,15 @@ type' and 'pet_name'
 #FAÇA VOCÊ MESMO
 #8.3 – Camiseta:
 def make_shirt(tamanho, message_shirt):
-    print("\nO tamanho da camisa é " + str(tamanho) + "\na frase a ser estampada deve ser:"
+    print("\nO tamanho da camisa é " + tamanho + "\na frase a ser estampada deve ser:"
          + message_shirt)
-make_shirt(35, 'Amor, fé e esperança')
-make_shirt(tamanho=40, message_shirt='Deus é meu protetor')
+make_shirt('GG', 'Amor, fé e esperança')
+make_shirt(tamanho='G', message_shirt='Deus é meu protetor')
 
 #8.4 – Camisetas grandes
+def make_shirt(message_shirt, tamanho='G'):
+    print("\nO tamanho da camisa é " + tamanho + "\na frase a ser estampada deve ser:"
+         + message_shirt)
+
+make_shirt(message_shirt='morrer em Cristo é viver em cristo')
+make_shirt(message_shirt='Cristo é Rei', tamanho='PP')
