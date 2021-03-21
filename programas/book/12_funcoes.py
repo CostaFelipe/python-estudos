@@ -60,3 +60,16 @@ describe_pet(pet_name='aika')
 #Chamadas de função equivalentes
 describe_pet(pet_name='harry', animal_type='hamster')
 describe_pet(animal_type='hamster', pet_name='harry')
+
+#Evitando erros em argumentos
+"""
+def describe_pet(animal_type, pet_name):
+    print("\nI have a " + animal_type + ".")
+    print("My " + animal_type + "'s name is " + pet_name.title() + ".")
+describe_pet()
+
+File "pets.py", line 6, in <module> v
+describe_pet() w TypeError: describe_pet() missing 2 required
+positional arguments: 'animal_
+type' and 'pet_name'
+"""
