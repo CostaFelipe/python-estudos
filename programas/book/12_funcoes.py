@@ -45,3 +45,7 @@ def book(author, title):
 book('A VIDA INTELECTUAL', 'A. D. SERTILLANGES')
 
 #Argumentos nomeados
+def describe_pets(animal_type, pet_name):
+    print("\nI have a " + animal_type + ".")
+    print("My " + animal_type + "'s name is " + pet_name.title() + ".")
+describe_pets(animal_type = 'dog', pet_name = 'aika')
