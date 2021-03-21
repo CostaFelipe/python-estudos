@@ -41,5 +41,7 @@ describe_pet('dog', 'mishuki')
 
 #A ordem é importante em argumentos posicionais
 def book(author, title):
-    print("My favorite book is " + title + ":" + author)
+    print("\nMy favorite book is " + title + ":" + author)
 book('A VIDA INTELECTUAL', 'A. D. SERTILLANGES')
+
+#Argumentos nomeados
