@@ -11,3 +11,6 @@ def greet_user(username):
     print("Hello " + username)
 
 greet_user('Felipe')
+
+#Argumentos e parâmetros
+#'Felipe' é o argumento e os parâmentro username
