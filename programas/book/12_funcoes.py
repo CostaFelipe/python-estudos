@@ -97,3 +97,12 @@ def describe_city(city, country='Brazil'):
 describe_city(city='fortaleza')
 describe_city(city='Reyjavik', country='Islândia')
 describe_city(country='EUA', city='Boston')
+
+#Valores de retorno
+#Devolvendo um valor simples
+def get_formatted_name(firstname, lastname):
+    fullname = firstname + ' ' + lastname
+    return fullname.title()
+
+name = get_formatted_name('Felipe', 'Costa')
+print(name)
