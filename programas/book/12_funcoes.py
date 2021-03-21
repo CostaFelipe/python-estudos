@@ -101,8 +101,8 @@ describe_city(country='EUA', city='Boston')
 #Valores de retorno
 #Devolvendo um valor simples
 def get_formatted_name(firstname, lastname):
-    fullname = firstname + ' ' + lastname
-    return fullname.title()
+    full_name = firstname + ' ' + lastname
+    return full_name.title()
 
 name = get_formatted_name('Felipe', 'Costa')
 print(name)
