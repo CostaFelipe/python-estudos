@@ -106,3 +106,5 @@ def get_formatted_name(firstname, lastname):
 
 name = get_formatted_name('Felipe', 'Costa')
 print(name)
+
+#Deixando um argumento opcional
