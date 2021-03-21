@@ -73,3 +73,10 @@ describe_pet() w TypeError: describe_pet() missing 2 required
 positional arguments: 'animal_
 type' and 'pet_name'
 """
+
+#FAÇA VOCÊ MESMO
+#8.3 – Camiseta:
+def make_shirt(tamanho, message_shirt):
+    print("\nO tamanho da camisa é " + str(tamanho) + "\na frase a ser estampada deve ser:"
+         + message_shirt)
+make_shirt(tamanho=40, message_shirt='Deus é meu protetor')
