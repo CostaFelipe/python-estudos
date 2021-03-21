@@ -34,3 +34,7 @@ def describe_pet(animal_type, pet_name):
     print("\nI have a " + animal_type + ".")
     print("My " + animal_type + "'s name is " + pet_name.title() + ".")
 describe_pet('dog', 'aika')
+
+#Várias chamadas de função
+describe_pet('cat', 'naninha')
+describe_pet('dog', 'mishuki')
