@@ -89,3 +89,11 @@ def make_shirt(message_shirt, tamanho='G'):
 
 make_shirt(message_shirt='morrer em Cristo é viver em cristo')
 make_shirt(message_shirt='Cristo é Rei', tamanho='PP')
+
+#8.5 – Cidades
+def describe_city(city, country='Brazil'):
+    print(city.title() + " está localizada n(o)a " + country )
+
+describe_city(city='fortaleza')
+describe_city(city='Reyjavik', country='Islândia')
+describe_city(country='EUA', city='Boston')
