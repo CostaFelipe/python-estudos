@@ -79,4 +79,7 @@ type' and 'pet_name'
 def make_shirt(tamanho, message_shirt):
     print("\nO tamanho da camisa é " + str(tamanho) + "\na frase a ser estampada deve ser:"
          + message_shirt)
+make_shirt(35, 'Amor, fé e esperança')
 make_shirt(tamanho=40, message_shirt='Deus é meu protetor')
+
+#8.4 – Camisetas grandes
