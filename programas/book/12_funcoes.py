@@ -14,3 +14,10 @@ greet_user('Felipe')
 
 #Argumentos e parâmetros
 #'Felipe' é o argumento e os parâmentro username
+
+#FAÇA VOCÊ MESMO
+#8.1 – Mensagem
+def display_message():
+    print("Estamos aprendendo sobre funções, parâmentros e argumentos")
+
+display_message()
