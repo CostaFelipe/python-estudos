@@ -147,13 +147,29 @@ musician = build_person('jimi', 'hendrix')
 print(musician)
 
 #Usando uma função com um laço while
+"""
 def get_formatted_name(first_name, last_name):
-    full_name = first_name + ' ' + last_name
+    full_name = first_name + " " + last_name
     return full_name.title()
 
 while True:
     print("\nPlease tell me your name:")
-    f_name = input("First name: ")
+    f_name = input("Primeiro nome: ")
     l_name = input("Last name: ")
+formatted_name = get_formatted_name(f_name, l_name)
+print("\nHello, " + formatted_name + "!")
+"""
+
+#usando estrutura break + function + while
+def get_formatted_name(first_name, last_name):
+    full_name = first_name + " " + last_name
+    return full_name.title()
+
+while True:
+    print("\n Por favor me diga seu nome:")
+    print("(enter 'q' at any time to quit)")
+    f_name = input("Digite seu primeiro nome:")
+    l_name = input("Digite seu sobrenome")
+    if f_name or last_name == 'q': break
 formatted_name = get_formatted_name(f_name, l_name)
 print("\nHello, " + formatted_name + "!")
