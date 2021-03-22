@@ -108,3 +108,8 @@ name = get_formatted_name('Felipe', 'Costa')
 print(name)
 
 #Deixando um argumento opcional
+def get_formatted_name(firstname, middlename, lastname):
+    full_name = firstname + ' ' + middlename + ' ' + lastname
+    return full_name
+musician = get_formatted_name('john', 'lee', 'hooker')
+print(musician)
