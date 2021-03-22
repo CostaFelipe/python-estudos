@@ -170,6 +170,7 @@ while True:
     print("(enter 'q' at any time to quit)")
     f_name = input("Digite seu primeiro nome:")
     l_name = input("Digite seu sobrenome")
-    if f_name or last_name == 'q': break
+    if f_name == 'q': break
+    if l_name == 'q': break
 formatted_name = get_formatted_name(f_name, l_name)
 print("\nHello, " + formatted_name + "!")
