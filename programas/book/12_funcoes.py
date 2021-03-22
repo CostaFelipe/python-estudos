@@ -125,3 +125,10 @@ musician = get_formatted_name('jimi', 'hendrix')
 print(musician)
 musician = get_formatted_name('jimi', 'hendrix', 'lee')
 print(musician)
+
+#Devolvendo um dicionário
+def build_person(first_name, last_name):
+    person = {'first': first_name, 'last': last_name}
+    return person
+musician = build_person('jimi', 'hendrix')
+print(musician)
