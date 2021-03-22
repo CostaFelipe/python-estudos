@@ -172,5 +172,6 @@ while True:
     l_name = input("Digite seu sobrenome:")
     if f_name == 'quit': break
     if l_name == 'quit': break
+    else: print("\nVamos continuar então")
 formatted_name = get_formatted_name(f_name, l_name)
 print("\nHello, " + formatted_name + "!")
