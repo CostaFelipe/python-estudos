@@ -201,3 +201,15 @@ musician04 = make_album('ciro nogueira', 'senhor', 32)
 print(musician01, musician02, musician03, musician04)
 
 #8.8 – Álbuns dos usuários
+def make_album(cantor, titulo_do_album):
+    album = cantor + ", " + titulo_do_album
+    return album
+
+while True:
+    print("\nAdd o cantor e album e para sair digite 'sair'")
+    artista = input("Add o nome do cantor:")
+    album = input("Add o titulo do album:")
+    if artista == "sair": break
+    if album == "sair": break
+formatted_artist = make_album(artista, album)
+print("\nHello, " + formatted_artist + "!")
