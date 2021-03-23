@@ -179,3 +179,9 @@ print("\nHello, " + formatted_name + "!")
 """
 
 #FAÇA VOCÊ MESMO
+#8.6 – Nomes de cidade
+def city_country(city, country):
+    print(city.title() + ", " + country.title())
+city_country('fortaleza', 'brasil')
+city_country('santa catarina', 'brasil')
+city_country('são paulo', 'brasil')
