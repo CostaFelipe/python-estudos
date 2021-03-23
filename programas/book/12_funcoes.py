@@ -185,3 +185,12 @@ def city_country(city, country):
 city_country('fortaleza', 'brasil')
 city_country('santa catarina', 'brasil')
 city_country('são paulo', 'brasil')
+
+#8.7 – Álbum
+def make_album(singer, title_album):
+    album = {'cantor': singer, 'title': title_album}
+    return album
+musician01 = make_album('ciro nogueira', 'senhor')
+musician02 = make_album('chico nogueira', 'vale a pena')
+musician03 = make_album('chico', 'chiquinho')
+print(musician01, musician02, musician03)
