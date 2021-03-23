@@ -199,3 +199,5 @@ musician02 = make_album('chico nogueira', 'vale a pena')
 musician03 = make_album('chico', 'chiquinho')
 musician04 = make_album('ciro nogueira', 'senhor', 32)
 print(musician01, musician02, musician03, musician04)
+
+#8.8 – Álbuns dos usuários
