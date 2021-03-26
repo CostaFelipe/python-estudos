@@ -59,7 +59,7 @@ great_magicians = []
 show_magicians(list_magicians)
 
 print("\n")
-#8.10 – Grandes mágicos:
+#8.10 – Grandes mágicos && 8.11 – Mágicos inalterados:
 def make_great(magicians, great_magicians):
     while magicians:
         current_magicians = magicians.pop()
