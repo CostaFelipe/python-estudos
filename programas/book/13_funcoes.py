@@ -122,3 +122,16 @@ def build_profile(first, last, *bios):
 
 build_profile("linda", "silva", 15, 'solteira', 1)
 build_profile("henrinque", "moreira", 'casado')
+
+#8.14 – Carros:
+def make_car(manufacturer, model, **options):
+    car = {'manufacturer': manufacturer.title(), 'model': model.title()}
+    for option, value in options.items():
+        car[option] = value
+        return car
+my_outback = make_car('subaru', 'outback', color='blue', tow_package=True)
+print(my_outback)
+
+my_accord = make_car('honda', 'accord', year=1991, color='white',
+        headlights='popup')
+print(my_accord)
