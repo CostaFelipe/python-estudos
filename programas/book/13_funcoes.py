@@ -55,4 +55,19 @@ def show_magicians(magicians):
         print(magician)
 
 list_magicians = ['Holdining', 'Mr. M', 'full']
+great_magicians = []
 show_magicians(list_magicians)
+
+print("\n")
+#8.10 – Grandes mágicos:
+def make_great(magicians, great_magicians):
+    while magicians:
+        current_magicians = magicians.pop()
+        great_magicians.append("Grande " + current_magicians)
+
+def show_magicians(great_magicians):
+    for great_magician in great_magicians:
+        print(great_magician)
+
+make_great(list_magicians[:], great_magicians)
+show_magicians(great_magicians)
