@@ -100,6 +100,16 @@ def build_profile(first, last, **user_info):
     profile['last_name'] = last
     for key, value in user_info.items():
         profile[key] = value
-        return profile
-user_profile = build_profile('albert', 'einstein', location='princeton', field='physics')
+    return profile
+user_profile = build_profile(first = 'albert', last = 'einstein', year = '1963', location='princeton', field='physics')
 print(user_profile)
+
+#FAÇA VOCÊ MESMO
+#8.12 – Sanduíches:
+def make_sandwich(*items):
+    for item in items:
+        print(item)
+
+make_sandwich('roast beef', 'cheddar cheese', 'lettuce', 'honey dijon')
+make_sandwich('turkey', 'apple slices', 'honey mustard')
+make_sandwich('peanut butter', 'strawberry jam')
