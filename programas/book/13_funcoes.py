@@ -113,3 +113,12 @@ def make_sandwich(*items):
 make_sandwich('roast beef', 'cheddar cheese', 'lettuce', 'honey dijon')
 make_sandwich('turkey', 'apple slices', 'honey mustard')
 make_sandwich('peanut butter', 'strawberry jam')
+
+#8.13 - Perfil do usuário:
+def build_profile(first, last, *bios):
+    print("\nprimeiro nome: "+ first.title() + "\nultinome: " + last.title() + "\nbio:")
+    for bio in bios:
+        print(" - " + str(bio))
+
+build_profile("linda", "silva", 15, 'solteira', 1)
+build_profile("henrinque", "moreira", 'casado')
