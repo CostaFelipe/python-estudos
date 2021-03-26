@@ -71,3 +71,16 @@ def show_magicians(great_magicians):
 
 make_great(list_magicians[:], great_magicians)
 show_magicians(great_magicians)
+
+#Passando um número arbitrário de argumentos
+def make_pizza(*toppings):
+    print(toppings)
+make_pizza('pepperoni')
+make_pizza('mushrooms', 'green peppers', 'extra cheese')
+
+def make_pizza(*toppings):
+    print("\nMaking a pizza with the following toppings:")
+    for topping in toppings:
+        print("- " + topping)
+make_pizza('pepperoni')
+make_pizza('mushrooms', 'green peppers', 'extra cheese')
