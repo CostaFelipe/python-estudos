@@ -46,3 +46,13 @@ completed_models = []
 print_models(unprinted_designs[:], completed_models)
 print("\nEvitando que uma função modifique uma lista")
 show_completed_models(completed_models)
+
+print("\n")
+#FAÇA VOCÊ MESMO
+#8.9 – Mágicos
+def show_magicians(magicians):
+    for magician in magicians:
+        print(magician)
+
+list_magicians = ['Holdining', 'Mr. M', 'full']
+show_magicians(list_magicians)
