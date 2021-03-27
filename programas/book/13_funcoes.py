@@ -135,3 +135,5 @@ print(my_outback)
 my_accord = make_car('honda', 'accord', year=1991, color='white',
         headlights='popup')
 print(my_accord)
+
+#Armazenando suas funções em módulos
