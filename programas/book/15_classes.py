@@ -16,3 +16,8 @@ class Dog():
 my_dog = Dog('willie', 6)
 print("My dog's name is " + my_dog.name.title() + ".")
 print("My dog is " + str(my_dog.age) + " years old.")
+
+#Chamando métodos
+my_dog = Dog('willie', 6)
+my_dog.sit()
+my_dog.rool_over()
