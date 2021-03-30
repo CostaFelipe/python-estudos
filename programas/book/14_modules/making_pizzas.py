@@ -1,3 +1,4 @@
+#importando funcoes especifica
 from pizza import make_pizza
 #palavra reservada
 from pizza import make_pizza as mp
