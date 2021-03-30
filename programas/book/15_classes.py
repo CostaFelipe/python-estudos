@@ -11,3 +11,8 @@ class Dog():
         print(self.name.title() + " is now sitting.")
     def rool_over(self):
         print(self.name.title() + " rolled over!")
+
+#Criando uma instância a partir de uma classe
+my_dog = Dog('willie', 6)
+print("My dog's name is " + my_dog.name.title() + ".")
+print("My dog is " + str(my_dog.age) + " years old.")
