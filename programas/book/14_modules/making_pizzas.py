@@ -5,6 +5,11 @@ from pizza import make_pizza
 #palavra reservada
 from pizza import make_pizza as mp
 
+#Usando a palavra reservada as para atribuir um alias a um modulo
+import pizza as p
+
+p.make_pizza(12, 'peppori')
+
 pizza.make_pizza(12, 'peppori')
 
 make_pizza(12, 'pepperoni')
