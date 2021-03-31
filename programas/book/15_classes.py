@@ -41,6 +41,7 @@ class Auto():
         self.marca = marca
         self.nome = nome
     def show(self):
-        print("Essa é a marca:" + marca.title() + "com nome" + nome)
+        print("Essa é a marca:" + self.marca.title() + " com nome " + self.nome)
 
 auto = Auto("ford", "F500")
+auto.show()
