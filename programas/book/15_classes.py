@@ -33,3 +33,14 @@ my_dog.sit()
 print("\nYour dog's name is " + your_dog.name.title() + ".")
 print("Your dog is " + str(your_dog.age) + " years old.")
 your_dog.sit()
+
+
+#fazendo outra classe
+class Auto():
+    def __init__(self, marca, nome):
+        self.marca = marca
+        self.nome = nome
+    def show(self):
+        print("Essa é a marca:" + marca.title() + "com nome" + nome)
+
+auto = Auto("ford", "F500")
