@@ -3,4 +3,4 @@ class Dog():
         self.name = name
         self.age = age
     def show(self):
-        print(self.name + self.age)
+        print(self.name + " " + str(self.age))
