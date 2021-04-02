@@ -85,3 +85,16 @@ restaurant_03 = Restaurant('joice', 'tite')
 restaurant_01.describe_restaurant()
 restaurant_02.describe_restaurant()
 restaurant_03.describe_restaurant()
+
+#9.3 – Usuários
+class User():
+    def __init__(self, first_name, last_name, age, email, status):
+        self.first_name = first_name
+        self.last_name = last_name
+        self.age = age
+        self.email = email
+        self.status = status
+    def describe_user(self):
+        print("O usuario " + self.last_name.title() + " possui o email:" + self.email)
+    def greet_user(self):
+        print("Olá, " + self.first_name.title() + " " + self.last_name)
