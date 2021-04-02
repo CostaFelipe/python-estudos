@@ -45,3 +45,6 @@ class Auto():
 
 auto = Auto("ford", "F500")
 auto.show()
+
+#Acessando atributos
+print(auto.marca.title() + " " + auto.nome.title())
