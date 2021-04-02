@@ -52,3 +52,10 @@ print(auto.marca.title() + " " + auto.nome.title())
 #Chamando métodos
 my_dog = Dog('willie', 6)
 my_dog.sit()
+
+#Criando várias instâncias
+my_dog = Dog('willie', 6)
+your_dog = Dog('lucy', 3)
+print("My dog's name is " + my_dog.name.title() + ".")
+print("My dog is "+ str(my_dog.age) + " years old.")
+my_dog.sit()
