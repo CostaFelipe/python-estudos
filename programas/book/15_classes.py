@@ -88,7 +88,7 @@ restaurant_03.describe_restaurant()
 
 #9.3 – Usuários
 class User():
-    def __init__(self, first_name, last_name, age, email, status):
+    def __init__(self, first_name, last_name, age, email, status=True):
         self.first_name = first_name
         self.last_name = last_name
         self.age = age
@@ -98,3 +98,15 @@ class User():
         print("O usuario " + self.last_name.title() + " possui o email:" + self.email)
     def greet_user(self):
         print("Olá, " + self.first_name.title() + " " + self.last_name)
+
+user01 = User('Felipe', 'Costa', 32, 'costa@gmail.com')
+user02 = User('Esther', 'Costa', 31, 'esther@gmail.com')
+user03 = User('Linda', 'Gomes', 28, 'linda@gmail.com')
+
+user01.describe_user()
+user02.describe_user()
+user03.describe_user()
+
+user01.greet_user()
+user02.greet_user()
+user03.greet_user()
