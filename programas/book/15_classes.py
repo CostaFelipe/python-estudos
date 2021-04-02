@@ -65,9 +65,14 @@ my_dog.sit()
 #9.1 – Restaurante
 class Restaurant():
     def __init__(self, restaurant_name, cuisine_type):
-        self.restaurante_name = restaurant_name
+        self.restaurant_name = restaurant_name
         self.cuisine_type = cuisine_type
     def describre_restaurant(self):
-        print(self.resturant_name.title() + " " + self.cuisine_type)
+        print(self.restaurant_name.title() + " " + self.cuisine_type)
     def open_restaurant():
         print("O restaurante está aberto")
+
+
+restaurant = Restaurant('Robert', 'classic')
+print(restaurant.restaurant_name.title() + " tipo :" + restaurant.cuisine_type)
+restaurant.describre_restaurant()
