@@ -48,3 +48,7 @@ auto.show()
 
 #Acessando atributos
 print(auto.marca.title() + " " + auto.nome.title())
+
+#Chamando métodos
+my_dog = Dog('willie', 6)
+my_dog.sit()
