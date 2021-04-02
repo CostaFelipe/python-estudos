@@ -59,3 +59,15 @@ your_dog = Dog('lucy', 3)
 print("My dog's name is " + my_dog.name.title() + ".")
 print("My dog is "+ str(my_dog.age) + " years old.")
 my_dog.sit()
+
+
+#FAÇA VOCÊ MESMO
+#9.1 – Restaurante
+class Restaurant():
+    def __init__(self, restaurant_name, cuisine_type):
+        self.restaurante_name = restaurant_name
+        self.cuisine_type = cuisine_type
+    def describre_restaurant(self):
+        print(self.resturant_name.title() + " " + self.cuisine_type)
+    def open_restaurant():
+        print("O restaurante está aberto")
