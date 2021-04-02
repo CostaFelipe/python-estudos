@@ -67,7 +67,7 @@ class Restaurant():
     def __init__(self, restaurant_name, cuisine_type):
         self.restaurant_name = restaurant_name
         self.cuisine_type = cuisine_type
-    def describre_restaurant(self):
+    def describe_restaurant(self):
         print(self.restaurant_name.title() + " " + self.cuisine_type)
     def open_restaurant():
         print("O restaurante está aberto")
@@ -75,4 +75,13 @@ class Restaurant():
 
 restaurant = Restaurant('Robert', 'classic')
 print(restaurant.restaurant_name.title() + " tipo :" + restaurant.cuisine_type)
-restaurant.describre_restaurant()
+restaurant.describe_restaurant()
+
+#9.2 – Três restaurantes
+restaurant_01 = Restaurant('Robert', 'classic')
+restaurant_02 = Restaurant('felipe', 'nordeste')
+restaurant_03 = Restaurant('joice', 'tite')
+
+restaurant_01.describe_restaurant()
+restaurant_02.describe_restaurant()
+restaurant_03.describe_restaurant()
