@@ -55,4 +55,4 @@ user.read_login_attempts()
 user.reset_login_attempts()
 user.read_login_attempts()
 
-#herança
+#
