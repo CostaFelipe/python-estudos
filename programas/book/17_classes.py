@@ -26,3 +26,31 @@ restaurant.set_number_served(8)
 restaurant.read_number_served()
 restaurant.increment_number_served(2)
 restaurant.read_number_served()
+
+#9.5 – Tentativas de login
+class User():
+    def __init__(self, first_name, last_name, age, email, status=True):
+        self.first_name = first_name
+        self.last_name = last_name
+        self.age = age
+        self.email = email
+        self.status = status
+        self.login_attempts = 0
+    def describe_user(self):
+        print("O usuario " + self.last_name.title() + " possui o email:" + self.email)
+    def greet_user(self):
+        print("Olá, " + self.first_name.title() + " " + self.last_name)
+    def increment_login_attempts(self):
+        self.login_attempts += 1
+    def reset_login_attempts(self):
+        self.login_attempts = 0
+    def read_login_attempts(self):
+        print("Loggs:" + str(self.login_attempts))
+
+user = User('Felipe', 'lima', 15, 'lima@gmail.com')
+user.increment_login_attempts()
+user.read_login_attempts()
+user.increment_login_attempts()
+user.read_login_attempts()
+user.reset_login_attempts()
+user.read_login_attempts()
