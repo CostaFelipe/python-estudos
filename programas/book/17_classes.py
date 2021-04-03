@@ -45,7 +45,7 @@ class User():
     def reset_login_attempts(self):
         self.login_attempts = 0
     def read_login_attempts(self):
-        print("Loggs:" + str(self.login_attempts))
+        print("Logs:" + str(self.login_attempts))
 
 user = User('Felipe', 'lima', 15, 'lima@gmail.com')
 user.increment_login_attempts()
@@ -54,3 +54,5 @@ user.increment_login_attempts()
 user.read_login_attempts()
 user.reset_login_attempts()
 user.read_login_attempts()
+
+#herança
