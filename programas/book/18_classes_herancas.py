@@ -36,3 +36,16 @@ class ElectricCar(Car):
 my_tesla = ElectricCar('tesla', 'model s', 2016)
 print(my_tesla.get_descriptive_name())
 my_tesla.describe_battery()
+
+#exemplo user
+class User():
+    def __init__(self, nome, idade, email):
+        self.nome = nome
+        self.idade = idade
+        self.email = email
+
+class Profile(User):
+    def __init_(self, nome, idade, email, picture):
+        super.__init(nome, idade, email)
+        self.picture = picture
+        self.ativo = True
