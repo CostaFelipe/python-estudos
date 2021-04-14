@@ -43,3 +43,22 @@ class ElectricCar(Car):
 
 my_tesla = ElectricCar('tesla', 'mode S', 2016)
 my_tesla.fill_gas_tank()
+
+#Instâncias como atributos
+class Battery():
+    """Uma tentativa simples de modelar uma bateria para um carro elétrico."""
+    def __init__(self, battery_size=70):
+        self.battery_size = battery_size
+    def describe_battery(self):
+        print(str(self.battery_size) + "-KWh battery")
+
+class ElectricCar(Car):
+    def __init__(self, make, model, year):
+        super().__init__(make, model, year)
+        self.battery = Battery()
+    def fill_gas_tank(self):
+        print("This car doesn't need a gas tank!")
+
+my_tesla = ElectricCar('tesla', 'model s', 2016)
+print(my_tesla.get_descriptive_name())
+my_tesla.battery.describe_battery()
