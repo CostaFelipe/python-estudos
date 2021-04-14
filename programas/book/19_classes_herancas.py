@@ -18,6 +18,8 @@ class Car():
         else: print("You can't roll back an odometer!")
     def increment_odometer(self, miles):
         self.odometer_reading += miles
+    def fill_gas_tank():
+        print("This car need a gas tank!")
 
 class ElectricCar(Car):
     def __init__(self, make, model, year):
@@ -28,3 +30,16 @@ class ElectricCar(Car):
 
 my_tesla = ElectricCar('tesla', 'mode S', 2016)
 my_tesla.describe_battery_size()
+
+#Sobrescrevendo métodos da classe-pai
+class ElectricCar(Car):
+    def __init__(self, make, model, year):
+        super().__init__(make, model, year)
+        self.battery_size = 70
+    def describe_battery_size(self):
+        print(str(self.battery_size) + "-KWh battery")
+    def fill_gas_tank(self):
+        print("This car doesn't need a gas tank!")
+
+my_tesla = ElectricCar('tesla', 'mode S', 2016)
+my_tesla.fill_gas_tank()
