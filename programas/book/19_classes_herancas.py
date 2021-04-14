@@ -49,8 +49,9 @@ class Battery():
     """Uma tentativa simples de modelar uma bateria para um carro elétrico."""
     def __init__(self, battery_size=70):
         self.battery_size = battery_size
-    def describe_battery(self):
-        print(str(self.battery_size) + "-KWh battery")
+    def describe_battery(self, battery_size=70):
+        self.battery_size = battery_size
+        print(str(self.battery_size) + "-KWh batterys")
 
 class ElectricCar(Car):
     def __init__(self, make, model, year):
@@ -61,4 +62,4 @@ class ElectricCar(Car):
 
 my_tesla = ElectricCar('tesla', 'model s', 2016)
 print(my_tesla.get_descriptive_name())
-my_tesla.battery.describe_battery()
+my_tesla.battery.describe_battery(100)
