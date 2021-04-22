@@ -1,4 +1,4 @@
-from car import ElectricCar
+from electric_car import ElectricCar
 
 #chamandos methods
 my_tesla = ElectricCar('tesla', 'model s', 2016)
