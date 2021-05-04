@@ -36,3 +36,9 @@ print(bicycles)
 print(bicycles[-1].upper())
 print(bicycles[0].lower())
 print(bicycles[2].title())
+
+#remover, add, subtituir listas
+motocycles = ['honda', 'susaki']
+motocycles[0] = 'ducati'
+motocycles.append('honda')
+print(motocycles)
