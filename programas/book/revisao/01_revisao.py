@@ -18,3 +18,8 @@ print(2**2)
 print(2 * 3)
 print(10 / 5)
 print(10 % 2)
+
+#numbers favorite
+number = 43
+message = "My favorite number is" + " " + str(number)
+print(message)
