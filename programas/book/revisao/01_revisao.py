@@ -28,3 +28,7 @@ print("\n")
 import this
 
 #sustenido
+print("\n")
+#listas
+bicycles = ['trek', 'cannonable', 'redline', 'sprecialized']
+print(bicycles)
