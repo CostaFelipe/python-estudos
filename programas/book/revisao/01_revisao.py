@@ -32,3 +32,7 @@ print("\n")
 #listas
 bicycles = ['trek', 'cannonable', 'redline', 'sprecialized']
 print(bicycles)
+
+print(bicycles[-1].upper())
+print(bicycles[0].lower())
+print(bicycles[2].title())
