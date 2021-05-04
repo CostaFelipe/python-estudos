@@ -23,3 +23,6 @@ print(10 % 2)
 number = 43
 message = "My favorite number is" + " " + str(number)
 print(message)
+
+print("\n")
+import this
