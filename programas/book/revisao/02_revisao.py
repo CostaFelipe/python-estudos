@@ -9,3 +9,7 @@ print("Twinkle, twinkle, little start, \n\t How I wonder what you are! \n\t\t Up
 import sys
 print("Python version")
 print (sys.version)
+
+import datetime
+now = datetime.datetime.now()
+print(now)
