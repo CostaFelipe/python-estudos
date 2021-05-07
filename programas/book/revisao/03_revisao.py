@@ -5,3 +5,6 @@ print(motocycles)
 #deletar
 del motocycles[0]
 print(motocycles)
+
+motocycles.remove('bmw')
+print(motocycles)
