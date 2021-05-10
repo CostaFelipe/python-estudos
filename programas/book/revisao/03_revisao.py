@@ -25,3 +25,7 @@ auto = ['ford', 'bmw', 'fiat', 'mercedes']
 print(sorted(auto))
 auto.reverse()
 print(auto)
+
+magicians = ['alice', 'sakura', 'mrs. M']
+for magician in magicians:
+    print(magician)
