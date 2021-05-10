@@ -16,3 +16,8 @@ print(motocycles)
 var_remove = 'honda'
 motocycles.remove(var_remove)
 print(motocycles)
+
+
+auto = ['ford', 'bmw', 'fiat', 'mercedes']
+auto.sort()
+print(auto)
