@@ -29,3 +29,6 @@ print(auto)
 magicians = ['alice', 'sakura', 'mrs. M']
 for magician in magicians:
     print(magician)
+
+for number in range(1, 11):
+    print(number)
