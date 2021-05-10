@@ -12,3 +12,7 @@ print(motocycles)
 #method pop
 motocycles.pop()
 print(motocycles)
+
+var_remove = 'honda'
+motocycles.remove(var_remove)
+print(motocycles)
