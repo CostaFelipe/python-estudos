@@ -31,3 +31,6 @@ for magician in magicians:
 
 for number in range(1, 11):
     print(number)
+
+numbers = [number for number in range(1,11)]
+print(numbers)
