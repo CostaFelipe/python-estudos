@@ -8,3 +8,7 @@ print(motocycles)
 
 motocycles.remove('bmw')
 print(motocycles)
+
+#method pop
+motocycles.pop()
+print(motocycles)
