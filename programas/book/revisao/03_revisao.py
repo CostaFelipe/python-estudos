@@ -21,3 +21,7 @@ print(motocycles)
 auto = ['ford', 'bmw', 'fiat', 'mercedes']
 auto.sort()
 print(auto)
+auto = ['ford', 'bmw', 'fiat', 'mercedes']
+print(sorted(auto))
+auto.reverse()
+print(auto)
