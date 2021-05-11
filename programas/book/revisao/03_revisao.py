@@ -34,3 +34,10 @@ for number in range(1, 11):
 
 numbers = [number for number in range(1,11)]
 print(numbers)
+
+pesos_reciclagem = [87, 20]
+total = 0
+for peso in pesos_reciclagem:
+    total = peso + total
+
+print("Peso total da reciclagens:" + str(total) + "Kg")
