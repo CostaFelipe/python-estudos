@@ -41,3 +41,6 @@ for peso in pesos_reciclagem:
     total = peso + total
 
 print("Peso total da reciclagens:" + str(total) + "Kg")
+
+for number in range(1, 11):
+    print(number)
