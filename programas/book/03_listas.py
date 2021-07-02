@@ -24,6 +24,9 @@ print(bicycles[-2])
 message = "My first bicycle was a " + bicycles[2].title() + "."
 print(message)
 
+framework = "Phoenix is framework for " + languages[1].title() + "."
+print(framework)
+
 #exercicios listas
 #1)
 names = ['Ruth', 'Levi', 'Sueli','Raimundo', 'Diego', 'Thiago', 'Nilson', 'Felipe']
