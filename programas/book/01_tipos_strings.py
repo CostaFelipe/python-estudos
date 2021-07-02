@@ -1,5 +1,6 @@
 print("this also a string")
 print('this is a string')
+print('this is perfect')
 
 message = 'I told my friends "Python is my favorite language"'
 print(message)
