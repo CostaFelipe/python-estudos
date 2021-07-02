@@ -33,6 +33,10 @@ first_name = "Ada"
 last_name = "Lovelace"
 print(first_name + " " + last_name)
 
+language = "Elixir"
+framework = "Phoenix"
+print(language +  " your framework is " + framework)
+
 #Acrescentando espacos em branco em strings com tabulacoes ou quebras de linha
 print("\tPython")
 print("Languages:\nPython\nC\nJavaScript")
