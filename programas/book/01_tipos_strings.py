@@ -41,6 +41,9 @@ print(language +  " your framework is " + framework)
 print("\tPython")
 print("Languages:\nPython\nC\nJavaScript")
 
+print("\tElixir")
+print("framework:\nPhoenix\nC\nChicago Boss")
+
 #Removendo espacos em branco
 #lado direito de um string
 favorite_language = 'python '
