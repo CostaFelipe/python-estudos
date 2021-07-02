@@ -7,6 +7,11 @@ languages = ['elixir', 'golang', 'python', 'erlang', 'typescript']
 print(languages)
 
 #acesso os elementos da listas
+print(languages[1])
+print(languages[2].title())
+print(languages[3].upper())
+print(languages[4].lower())
+
 print(bicycles[0])
 print(bicycles[0].title())
 
