@@ -5,6 +5,10 @@ print('this is perfect')
 message = 'I told my friends "Python is my favorite language"'
 print(message)
 
+name = "Linda"
+hello = 'Hello my name is ' + name
+print(hello)
+
 #letras maiusculas e minusculas
 name = "ada lovelace"
 print(name.title())
