@@ -53,6 +53,10 @@ motorcycles = ['honda', 'yamaha', 'suzuki']
 motorcycles[0] = 'ducati'
 print(motorcycles)
 
+languages = ['elixir', 'golang', 'python']
+languages[1] = 'typescript'
+print(languages)
+
 #Acrescentando elementos em uma lista
 motorcycles = ['honda', 'yamaha', 'suzuki']
 motorcycles.append('ducati')
