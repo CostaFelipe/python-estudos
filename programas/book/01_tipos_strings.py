@@ -13,11 +13,20 @@ print(hello)
 name = "ada lovelace"
 print(name.title())
 
+nome = "levi de lima"
+print(nome.title())
+
 name = "ADA LOVELACE"
 print(name.lower())
 
+language = "ELIXIR IS THE BEST"
+print(language.lower())
+
 name = "Ada Lovelace"
 print(name.upper())
+
+language = "Phoenix framework"
+print(language.upper())
 
 #Combinando ou concatenando strings
 first_name = "Ada"
