@@ -62,6 +62,11 @@ motorcycles = ['honda', 'yamaha', 'suzuki']
 motorcycles.append('ducati')
 print(motorcycles)
 
+languages = ['elixir', 'golang', 'python']
+languages.append('scala')
+print(languages)
+
+
 motorcycles = []
 motorcycles.append('honda')
 motorcycles.append('yamaha')
