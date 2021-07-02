@@ -3,6 +3,9 @@
 bicycles = ['trek', 'cannondale', 'redline', 'specialized']
 print(bicycles)
 
+languages = ['elixir', 'golang', 'python', 'erlang', 'typescript']
+print(languages)
+
 #acesso os elementos da listas
 print(bicycles[0])
 print(bicycles[0].title())
