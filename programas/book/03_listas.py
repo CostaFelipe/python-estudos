@@ -76,6 +76,10 @@ motorcycles = ['honda', 'yamaha', 'suzuki']
 motorcycles.append('ducati')
 print(motorcycles)
 
+cars_brands = ['jaguar', 'ford', 'toyota', 'honda', 'bmw']
+cars_brands.append('fiat')
+print(cars_brands)
+
 languages = ['elixir', 'golang', 'python']
 languages.append('scala')
 print(languages)
