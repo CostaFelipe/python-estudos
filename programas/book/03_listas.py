@@ -6,6 +6,8 @@ print(bicycles)
 languages = ['elixir', 'golang', 'python', 'erlang', 'typescript']
 print(languages)
 
+cars = ['jepp', 'offroads', 'luxe', 'prime']
+
 #acesso os elementos da listas
 print(languages[1])
 print(languages[2].title())
