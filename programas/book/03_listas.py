@@ -131,6 +131,10 @@ motorcycles = ['honda', 'yamaha', 'suzuki', 'ducati']
 motorcycles.remove('honda')
 print(motorcycles)
 
+cars_brands = ['jaguar', 'ford', 'toyota', 'honda', 'bmw']
+cars_brands.remove('ford')
+print(cars_brands)
+
 motorcycles = ['honda', 'yamaha', 'suzuki', 'ducati']
 too_expensive = 'ducati'
 motorcycles.remove(too_expensive)
