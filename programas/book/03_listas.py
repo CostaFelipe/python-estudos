@@ -84,12 +84,18 @@ languages = ['elixir', 'golang', 'python']
 languages.append('scala')
 print(languages)
 
-
 motorcycles = []
 motorcycles.append('honda')
 motorcycles.append('yamaha')
 motorcycles.append('suzuki')
 print(motorcycles)
+
+cars = []
+cars.append('jaguar')
+cars.append('ford')
+cars.append('fiat')
+cars.append('chevrolet')
+print(cars)
 
 #Inserindo elementos em uma lista
 motorcycles = ['honda', 'yamaha', 'suzuki']
