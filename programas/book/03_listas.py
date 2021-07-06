@@ -9,6 +9,11 @@ print(languages)
 cars = ['jepp', 'offroads', 'luxe', 'prime']
 
 #acesso os elementos da listas
+print(cars[1])
+print(cars[2].lower())
+print(cars[3].upper())
+print(car[0].title())
+
 print(languages[1])
 print(languages[2].title())
 print(languages[3].upper())
