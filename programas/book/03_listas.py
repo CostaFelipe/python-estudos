@@ -112,6 +112,10 @@ print(motorcycles)
 del motorcycles[0]
 print(motorcycles)
 
+cars_brands = ['jaguar', 'ford', 'toyota', 'honda', 'bmw']
+del cars_brands[0]
+print(cars_brands)
+
 #Removendo um item com o metodo pop()
 motorcycles = ['honda', 'yamaha', 'suzuki']
 print(motorcycles)
