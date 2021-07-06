@@ -12,7 +12,7 @@ cars = ['jepp', 'offroads', 'luxe', 'prime']
 print(cars[1])
 print(cars[2].lower())
 print(cars[3].upper())
-print(car[0].title())
+print(cars[0].title())
 
 print(languages[1])
 print(languages[2].title())
@@ -29,6 +29,9 @@ print(bicycles[-2])
 
 #Usando valores individuais de uma lista
 message = "My first bicycle was a " + bicycles[2].title() + "."
+print(message)
+
+message = "my cars favorite were a " + cars[1].title() + "."
 print(message)
 
 framework = "Phoenix is framework for " + languages[1].title() + "."
