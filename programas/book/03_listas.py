@@ -63,6 +63,10 @@ motorcycles = ['honda', 'yamaha', 'suzuki']
 motorcycles[0] = 'ducati'
 print(motorcycles)
 
+cars_brands = ['jaguar', 'ford', 'toyota', 'honda', 'bmw']
+cars_brands[0] = 'fiat'
+print(cars_brands)
+
 languages = ['elixir', 'golang', 'python']
 languages[1] = 'typescript'
 print(languages)
