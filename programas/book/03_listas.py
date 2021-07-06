@@ -122,6 +122,10 @@ print(motorcycles)
 popped_motorcycles = motorcycles.pop()
 print(popped_motorcycles)
 
+cars_brands = ['jaguar', 'ford', 'toyota', 'honda', 'bmw']
+popped_cars = cars_brands.pop()
+print(popped_cars)
+
 #Removendo um item de acordo com o valor
 motorcycles = ['honda', 'yamaha', 'suzuki', 'ducati']
 motorcycles.remove('honda')
