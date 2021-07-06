@@ -102,6 +102,10 @@ motorcycles = ['honda', 'yamaha', 'suzuki']
 motorcycles.insert(0, 'ducati')
 print(motorcycles)
 
+cars_brands = ['jaguar', 'ford', 'toyota', 'honda', 'bmw']
+cars_brands.insert(0, 'fiat')
+print(cars_brands)
+
 #Removendo elementos de uma lista
 motorcycles = ['honda', 'yamaha', 'suzuki']
 print(motorcycles)
