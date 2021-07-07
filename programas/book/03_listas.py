@@ -163,6 +163,8 @@ numeros.sort()
 print("numeros ordenados: ", numeros)
 
 numbers.sort(reverse=True)
+numeros.sort(reverse=True)
+print(numeros)
 print(numbers)
 
 #Ordenando uma lista temporariamente com a funcao sorted()
