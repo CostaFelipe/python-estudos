@@ -149,7 +149,9 @@ print(cars)
 
 motocycles = ['ducati', 'honda', 'yamaha', 'suzuki']
 motocycles.sort()
-print("AQUI: ", motocycles)
+print(": ", motocycles)
+motocycles.sort(reverse=True)
+print("reverse:", motocycles)
 
 numbers = [9, 5, 8, 4]
 numbers.sort()
