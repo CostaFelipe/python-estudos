@@ -169,11 +169,16 @@ print(numbers)
 
 #Ordenando uma lista temporariamente com a funcao sorted()
 cars = ['bmw', 'audi', 'toyota', 'subaru']
+motocycles = ['ducati', 'honda', 'yamaha', 'suzuki']
+
 print("Here is the original list:")
 print(cars)
+print(motocycles)
 print("\nHere is the sorted list:")
+print(sorted(motocycles))
 print(sorted(cars))
 print(cars)
+print(motocycles)
 
 print("Here is the original list:")
 cars = ['bmw', 'audi', 'toyota', 'subaru']
