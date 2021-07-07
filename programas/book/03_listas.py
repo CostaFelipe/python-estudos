@@ -157,6 +157,11 @@ numbers = [9, 5, 8, 4]
 numbers.sort()
 print(numbers)
 
+#inteiros
+numeros = [15, 10, 34, 56]
+numeros.sort()
+print("numeros ordenados: ", numeros)
+
 numbers.sort(reverse=True)
 print(numbers)
 
